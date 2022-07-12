@@ -1,0 +1,189 @@
+{
+  "protocol": "hb",
+  "n": 3,
+  "batch-size": 1000,
+  "payload-size": 250,
+  "fault": "free",
+  "results": [
+    {
+      "replica": 0,
+      "start": 1657623390835,
+      "finish": 1657623392201,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657623391121,
+          "value": 286,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623391555,
+          "value": 433,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623391830,
+          "value": 275,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623392187,
+          "value": 357,
+          "block": 0,
+          "proposers": []
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 1657623390835,
+          "finish": 1657623391121,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391122,
+          "finish": 1657623391555,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391555,
+          "finish": 1657623391830,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391830,
+          "finish": 1657623392187,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 1,
+      "start": 1657623390835,
+      "finish": 1657623392200,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657623391121,
+          "value": 286,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623391555,
+          "value": 433,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623391832,
+          "value": 277,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623392187,
+          "value": 355,
+          "block": 0,
+          "proposers": []
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 1657623390835,
+          "finish": 1657623391121,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391122,
+          "finish": 1657623391555,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391555,
+          "finish": 1657623391832,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391832,
+          "finish": 1657623392187,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 2,
+      "start": 1657623390835,
+      "finish": 1657623392201,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657623391122,
+          "value": 287,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623391558,
+          "value": 436,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623391830,
+          "value": 272,
+          "block": 0,
+          "proposers": []
+        },
+        {
+          "timestamp": 1657623392189,
+          "value": 359,
+          "block": 0,
+          "proposers": []
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 1657623390835,
+          "finish": 1657623391122,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391122,
+          "finish": 1657623391558,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391558,
+          "finish": 1657623391830,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 1657623391830,
+          "finish": 1657623392189,
+          "result": true
+        }
+      ]
+    }
+  ]
+}
