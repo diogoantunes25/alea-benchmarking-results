@@ -1,0 +1,3417 @@
+{
+  "protocol": "dumbo",
+  "n": 8,
+  "batch-size": 10000,
+  "payload-size": 250,
+  "fault": "free",
+  "results": [
+    {
+      "replica": 0,
+      "start": 1657744972964,
+      "finish": 1657744988141,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973686,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974329,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975007,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975625,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976331,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976941,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977520,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978247,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978797,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979415,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980076,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980678,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981353,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744982013,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982645,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983283,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983947,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984550,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985218,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985839,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986426,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987073,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987679,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973686,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974329,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975007,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975625,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976331,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976941,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977520,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978246,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978797,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979415,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980076,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980678,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981353,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982012,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982645,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983283,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983947,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984550,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985218,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985839,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986426,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987073,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987679,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 1,
+      "start": 1657744972964,
+      "finish": 1657744988139,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973741,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974401,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975043,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975621,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976330,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976919,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977554,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978157,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978786,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979479,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980002,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980695,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981351,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744982002,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982676,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983257,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983945,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984577,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985188,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985839,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986437,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987057,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987679,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973741,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974401,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975042,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975621,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976330,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976919,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977554,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978157,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978786,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979479,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980002,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980695,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981351,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982002,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982676,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983257,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983945,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984577,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985188,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985839,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986437,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987057,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987679,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 2,
+      "start": 1657744972964,
+      "finish": 1657744988139,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973755,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974373,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974975,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975655,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976361,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976930,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977507,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978255,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978834,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979413,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980011,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980679,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981331,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981967,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982664,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983283,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983930,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984588,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985246,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985834,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986430,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987042,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987664,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973755,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974373,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974975,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975655,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976361,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976930,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977507,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978255,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978834,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979413,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980011,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980679,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981330,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981967,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982664,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983283,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983930,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984587,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985246,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985833,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986430,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987042,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987664,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 3,
+      "start": 1657744972964,
+      "finish": 1657744988138,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973685,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974418,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975010,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975643,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976289,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976939,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977550,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978200,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978800,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979416,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980063,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980783,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981352,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981987,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982601,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983373,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983914,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984711,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985223,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985821,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986455,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987070,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987683,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973685,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974418,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975010,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975643,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976289,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976939,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977550,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978199,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978800,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979416,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980063,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980783,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981352,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981987,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982601,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983373,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983914,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984711,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985223,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985821,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986455,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987070,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987683,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 4,
+      "start": 1657744972964,
+      "finish": 1657744988138,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973696,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974398,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975017,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975645,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976271,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976921,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977551,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978250,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978860,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979467,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980035,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980693,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981321,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744982006,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982603,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983249,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983943,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984589,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985192,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985912,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986421,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987044,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987665,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973696,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974398,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975017,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975645,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976271,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976921,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977551,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978250,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978860,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979467,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980035,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980692,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981321,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982006,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982603,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983249,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983943,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984589,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985191,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985912,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986421,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987044,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987664,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 5,
+      "start": 1657744972964,
+      "finish": 1657744988138,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973721,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974327,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974997,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975616,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976371,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977025,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977597,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978181,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978819,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979396,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980055,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980675,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981325,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744982018,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982698,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983274,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983939,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984599,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985235,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985809,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986431,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987050,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987694,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973721,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974327,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974997,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975616,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976371,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977024,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977597,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978181,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978819,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979396,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980055,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980674,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981325,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982018,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982698,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983274,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983939,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984599,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985235,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985809,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986431,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987050,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987694,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 6,
+      "start": 1657744972964,
+      "finish": 1657744988138,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973674,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974354,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974993,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975627,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976284,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976928,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977558,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978168,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978797,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979406,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980045,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980666,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981341,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744982027,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982586,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983261,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983896,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984598,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985193,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985817,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986471,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987104,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987667,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973674,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974354,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974993,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975627,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976284,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976928,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977558,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978168,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978797,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979406,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980045,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980666,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981341,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982027,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982585,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983261,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983896,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984598,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985193,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985817,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986471,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987104,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987667,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 7,
+      "start": 1657744972964,
+      "finish": 1657744988140,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1657744973799,
+          "value": 6250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974329,
+          "value": 6250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744974996,
+          "value": 6250,
+          "block": 2,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744975628,
+          "value": 6250,
+          "block": 3,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976275,
+          "value": 6250,
+          "block": 4,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744976922,
+          "value": 6250,
+          "block": 5,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744977520,
+          "value": 6250,
+          "block": 6,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978216,
+          "value": 6250,
+          "block": 7,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744978878,
+          "value": 6250,
+          "block": 8,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744979405,
+          "value": 6250,
+          "block": 9,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980025,
+          "value": 6250,
+          "block": 10,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744980660,
+          "value": 6250,
+          "block": 11,
+          "proposers": [
+            1,
+            2,
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981456,
+          "value": 6250,
+          "block": 12,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744981971,
+          "value": 6250,
+          "block": 13,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "timestamp": 1657744982623,
+          "value": 6250,
+          "block": 14,
+          "proposers": [
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983253,
+          "value": 6250,
+          "block": 15,
+          "proposers": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744983913,
+          "value": 6250,
+          "block": 16,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744984579,
+          "value": 6250,
+          "block": 17,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985178,
+          "value": 6250,
+          "block": 18,
+          "proposers": [
+            0,
+            2,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744985814,
+          "value": 6250,
+          "block": 19,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744986430,
+          "value": 6250,
+          "block": 20,
+          "proposers": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987047,
+          "value": 6250,
+          "block": 21,
+          "proposers": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1657744987694,
+          "value": 6250,
+          "block": 22,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744973799,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974329,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744974996,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744975628,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976275,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744976921,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744977520,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978216,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744978878,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744979405,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980025,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744980660,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981456,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744981971,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744982623,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983253,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744983913,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744984579,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985178,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744985814,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744986430,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987047,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1657744987693,
+          "result": true
+        }
+      ]
+    }
+  ]
+}
