@@ -1,0 +1,60 @@
+LOG FILE FOR REPLICA 0
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - setTopology - replicas:[0, 1, 2, 3, 4], N:5, f:1
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Setting network topology
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781748] Running TCP server at port 9000.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781756] Socket to 172.16.37.13:1, channel 0 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781756] Attempting connection to replica 1 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781757] Socket to 172.16.37.13:1, channel 1 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781757] Attempting connection to replica 1 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781757] Socket to 172.16.37.13:2, channel 0 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781757] Attempting connection to replica 2 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781758] Socket to 172.16.37.13:2, channel 1 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781758] Attempting connection to replica 2 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781758] Socket to 172.16.37.13:3, channel 0 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781758] Attempting connection to replica 3 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781759] Socket to 172.16.37.13:3, channel 1 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781759] Attempting connection to replica 3 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781759] Socket to 172.16.37.13:4, channel 0 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781759] Attempting connection to replica 4 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781759] Socket to 172.16.37.13:4, channel 1 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1659101781759] Attempting connection to replica 4 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Connection status:
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782762] from 172.16.37.13:9000 to 172.16.37.13:9001 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782762] from 172.16.37.13:9000 to 172.16.37.13:9002 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782762] from 172.16.37.13:9000 to 172.16.37.13:9003 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782762] from 172.16.37.13:9000 to 172.16.37.13:9004 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782762] from 172.16.37.13:9000 to 172.16.37.13:9001 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782762] from 172.16.37.13:9000 to 172.16.37.13:9002 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782762] from 172.16.37.13:9000 to 172.16.37.13:9003 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1659101782763] from 172.16.37.13:9000 to 172.16.37.13:9004 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - setProtocol - protocol:HONEY_BADGER, batchSize:10
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Initializing benchmark protocol
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.name: HONEY_BADGER
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.batch_size: 10
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.encryption: class pt.tecnico.ulisboa.hbbft.abc.honeybadger.crypto.NeverEncrypt
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.committee_size: 2
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.benchmark: false
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.payload_size: 250
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.faults: {3=FREE}
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Starting benchmark
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Stopping benchmark
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
