@@ -1,0 +1,825 @@
+{
+  "protocol": "dumbo",
+  "n": 8,
+  "batch-size": 50000,
+  "payload-size": 250,
+  "fault": "free",
+  "results": [
+    {
+      "replica": 0,
+      "start": 1659173886885,
+      "finish": 1659173902557,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890270,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893275,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896274,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899427,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902378,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890269,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893275,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896274,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899427,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902378,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 1,
+      "start": 1659173886885,
+      "finish": 1659173902557,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890305,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893237,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896174,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899178,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902399,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890305,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893237,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896174,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899178,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902399,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 2,
+      "start": 1659173886885,
+      "finish": 1659173902557,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890450,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893363,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896283,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899408,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902417,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890450,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893363,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896283,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899408,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902417,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 3,
+      "start": 1659173886885,
+      "finish": 1659173902557,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890167,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893229,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896437,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899277,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902407,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890167,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893229,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896437,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899277,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902407,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 4,
+      "start": 1659173886885,
+      "finish": 1659173902559,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890317,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893305,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896183,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899314,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902481,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890317,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893305,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896183,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899314,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902481,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 5,
+      "start": 1659173886885,
+      "finish": 1659173902557,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890290,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893229,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896548,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899292,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902475,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890290,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893228,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896548,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899292,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902475,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 6,
+      "start": 1659173886885,
+      "finish": 1659173902557,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890290,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893253,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896247,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899203,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902446,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890290,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893253,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896247,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899203,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902446,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 7,
+      "start": 1659173886885,
+      "finish": 1659173902557,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1659173890524,
+          "value": 31250,
+          "block": 0,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173893471,
+          "value": 31250,
+          "block": 1,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173896232,
+          "value": 31250,
+          "block": 2,
+          "proposers": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173899601,
+          "value": 31250,
+          "block": 3,
+          "proposers": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "timestamp": 1659173902351,
+          "value": 31250,
+          "block": 4,
+          "proposers": [
+            1,
+            3,
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173890524,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173893470,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173896232,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173899601,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1659173902351,
+          "result": true
+        }
+      ]
+    }
+  ]
+}
