@@ -1,0 +1,4342 @@
+sudo-g5k
+curl -sSL https://get.docker.com/ | sh
++ sudo -E sh -c apt-get update -qq >/dev/null
++ sudo -E sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq apt-transport-https ca-certificates curl >/dev/null
++ sudo -E sh -c mkdir -p /etc/apt/keyrings && chmod -R 0755 /etc/apt/keyrings
++ sudo -E sh -c curl -fsSL "https://download.docker.com/linux/debian/gpg" | gpg --dearmor --yes -o /etc/apt/keyrings/docker.gpg
++ sudo -E sh -c chmod a+r /etc/apt/keyrings/docker.gpg
++ sudo -E sh -c echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bullseye stable" > /etc/apt/sources.list.d/docker.list
++ sudo -E sh -c apt-get update -qq >/dev/null
++ sudo -E sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-scan-plugin >/dev/null
++ version_gte 20.10
++ [ -z  ]
++ return 0
++ sudo -E sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq docker-ce-rootless-extras >/dev/null
++ sudo -E sh -c docker version
+sudo curl -sSL "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+sudo mkdir -p /etc/docker
+echo "{ \"registry-mirrors\": [\"http://docker-cache.grid5000.fr\"] }" | sudo tee /etc/docker/daemon.json
+sudo systemctl restart docker
+sudo chmod o+rw /var/run/docker.sock
+Using default tag: latest
+latest: Pulling from diogoantunes25/alea-code
+
+[1A[2Kd5fd17ec1767: Pulling fs layer [1B
+[1A[2Kb5dc755b592d: Pulling fs layer [1B
+[1A[2Ka9b58f59d33b: Pulling fs layer [1B
+[1A[2Kea18a6ec8444: Pulling fs layer [1B
+[1A[2K6d7a0177846e: Pulling fs layer [1B
+[1A[2Kfa2950f078a7: Pulling fs layer [1B
+[1A[2Ka1335d143d6a: Pulling fs layer [1B
+[1A[2K011fcaf7a962: Pulling fs layer [1B
+[1A[2K8e543826f143: Pulling fs layer [1B
+[1A[2Kcbfd84b30286: Pulling fs layer [1B[7A[2Kea18a6ec8444: Waiting [7B
+[1A[2Kd3efbc6df92e: Pulling fs layer [1B[7A[2K6d7a0177846e: Waiting [7B
+[1A[2K250e02f57121: Pulling fs layer [1B
+[1A[2K65001f8f7510: Pulling fs layer [1B[4A[2Kcbfd84b30286: Waiting [4B
+[1A[2K061e855fe114: Pulling fs layer [1B[9A[2Kfa2950f078a7: Waiting [9B[6A[2K8e543826f143: Waiting [6B
+[1A[2Kbf71f62ca87a: Pulling fs layer [1B[8A[2K011fcaf7a962: Waiting [8B[5A[2Kd3efbc6df92e: Waiting [5B[2A[2K061e855fe114: Waiting [2B[3A[2K65001f8f7510: Waiting [3B[4A[2K250e02f57121: Waiting [4B[14A[2Kb5dc755b592d: Downloading  209.1kB/19.77MB[14B[15A[2Kd5fd17ec1767: Downloading  314.8kB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  546.5kB/192.5MB[13B[14A[2Kb5dc755b592d: Downloading  6.115MB/19.77MB[14B[15A[2Kd5fd17ec1767: Downloading  7.113MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  8.294MB/192.5MB[13B[14A[2Kb5dc755b592d: Downloading  14.14MB/19.77MB[14B[15A[2Kd5fd17ec1767: Downloading  15.08MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  16.65MB/192.5MB[13B[14A[2Kb5dc755b592d: Verifying Checksum [14B[14A[2Kb5dc755b592d: Download complete [14B[12A[2Kea18a6ec8444: Downloading     160B/160B[12B[12A[2Kea18a6ec8444: Verifying Checksum [12B[12A[2Kea18a6ec8444: Download complete [12B[15A[2Kd5fd17ec1767: Downloading  23.04MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  25.56MB/192.5MB[13B[15A[2Kd5fd17ec1767: Verifying Checksum [15B[15A[2Kd5fd17ec1767: Download complete [15B[11A[2K6d7a0177846e: Downloading  327.1kB/31.18MB[11B[10A[2Kfa2950f078a7: Downloading  89.25kB/8.736MB[10B[13A[2Ka9b58f59d33b: Downloading  34.48MB/192.5MB[13B[15A[2Kd5fd17ec1767: Extracting  294.9kB/28.57MB[15B[11A[2K6d7a0177846e: Downloading  7.218MB/31.18MB[11B[10A[2Kfa2950f078a7: Downloading  5.106MB/8.736MB[10B[13A[2Ka9b58f59d33b: Downloading  42.27MB/192.5MB[13B[11A[2K6d7a0177846e: Downloading  14.43MB/31.18MB[11B[15A[2Kd5fd17ec1767: Extracting  3.244MB/28.57MB[15B[10A[2Kfa2950f078a7: Downloading  8.736MB/8.736MB[10B[10A[2Kfa2950f078a7: Verifying Checksum [10B[10A[2Kfa2950f078a7: Download complete [10B[9A[2Ka1335d143d6a: Downloading     850B/850B[9B[9A[2Ka1335d143d6a: Verifying Checksum [9B[9A[2Ka1335d143d6a: Download complete [9B[8A[2K011fcaf7a962: Downloading     359B/359B[8B[8A[2K011fcaf7a962: Verifying Checksum [8B[8A[2K011fcaf7a962: Download complete [8B[13A[2Ka9b58f59d33b: Downloading  49.52MB/192.5MB[13B[7A[2K8e543826f143: Downloading     127B/127B[7B[7A[2K8e543826f143: Verifying Checksum [7B[7A[2K8e543826f143: Download complete [7B[11A[2K6d7a0177846e: Downloading  21.64MB/31.18MB[11B[15A[2Kd5fd17ec1767: Extracting  5.898MB/28.57MB[15B[6A[2Kcbfd84b30286: Downloading  389.7kB/38.58MB[6B[13A[2Ka9b58f59d33b: Downloading  57.31MB/192.5MB[13B[11A[2K6d7a0177846e: Downloading  28.85MB/31.18MB[11B[15A[2Kd5fd17ec1767: Extracting  8.258MB/28.57MB[15B[11A[2K6d7a0177846e: Verifying Checksum [11B[11A[2K6d7a0177846e: Download complete [11B[6A[2Kcbfd84b30286: Downloading  6.288MB/38.58MB[6B[13A[2Ka9b58f59d33b: Downloading  64.56MB/192.5MB[13B[5A[2Kd3efbc6df92e: Downloading  163.1kB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting  10.03MB/28.57MB[15B[6A[2Kcbfd84b30286: Downloading  13.76MB/38.58MB[6B[13A[2Ka9b58f59d33b: Downloading   71.8MB/192.5MB[13B[5A[2Kd3efbc6df92e: Downloading   5.42MB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting  12.39MB/28.57MB[15B[6A[2Kcbfd84b30286: Downloading  21.23MB/38.58MB[6B[13A[2Ka9b58f59d33b: Downloading   79.6MB/192.5MB[13B[5A[2Kd3efbc6df92e: Downloading  13.45MB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting  15.63MB/28.57MB[15B[5A[2Kd3efbc6df92e: Verifying Checksum [5B[5A[2Kd3efbc6df92e: Download complete [5B[6A[2Kcbfd84b30286: Downloading  28.31MB/38.58MB[6B[13A[2Ka9b58f59d33b: Downloading  86.28MB/192.5MB[13B[4A[2K250e02f57121: Downloading  181.2kB/16.8MB[4B[15A[2Kd5fd17ec1767: Extracting  19.17MB/28.57MB[15B[6A[2Kcbfd84b30286: Downloading  35.39MB/38.58MB[6B[13A[2Ka9b58f59d33b: Downloading  93.52MB/192.5MB[13B[4A[2K250e02f57121: Downloading  5.614MB/16.8MB[4B[6A[2Kcbfd84b30286: Verifying Checksum [6B[6A[2Kcbfd84b30286: Download complete [6B[15A[2Kd5fd17ec1767: Extracting  21.53MB/28.57MB[15B[3A[2K65001f8f7510: Downloading     296B/296B[3B[3A[2K65001f8f7510: Verifying Checksum [3B[3A[2K65001f8f7510: Download complete [3B[2A[2K061e855fe114: Downloading     150B/150B[2B[2A[2K061e855fe114: Verifying Checksum [2B[2A[2K061e855fe114: Download complete [2B[13A[2Ka9b58f59d33b: Downloading  100.8MB/192.5MB[13B[4A[2K250e02f57121: Downloading  13.09MB/16.8MB[4B[1A[2Kbf71f62ca87a: Downloading     147B/147B[1B[1A[2Kbf71f62ca87a: Download complete [1B[4A[2K250e02f57121: Downloading   16.8MB/16.8MB[4B[4A[2K250e02f57121: Verifying Checksum [4B[4A[2K250e02f57121: Download complete [4B[13A[2Ka9b58f59d33b: Downloading  108.6MB/192.5MB[13B[15A[2Kd5fd17ec1767: Extracting  24.18MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  116.9MB/192.5MB[13B[15A[2Kd5fd17ec1767: Extracting  26.25MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  125.3MB/192.5MB[13B[15A[2Kd5fd17ec1767: Extracting  28.02MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  133.1MB/192.5MB[13B[15A[2Kd5fd17ec1767: Extracting  28.57MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  140.9MB/192.5MB[13B[13A[2Ka9b58f59d33b: Downloading  149.8MB/192.5MB[13B[15A[2Kd5fd17ec1767: Pull complete [15B[13A[2Ka9b58f59d33b: Downloading  159.3MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting  229.4kB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  166.5MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting  2.294MB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  174.3MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting  4.588MB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  182.7MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting  6.652MB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  190.5MB/192.5MB[13B[13A[2Ka9b58f59d33b: Verifying Checksum [13B[13A[2Ka9b58f59d33b: Download complete [13B[14A[2Kb5dc755b592d: Extracting  9.863MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  12.39MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  16.29MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  17.66MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  18.58MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  19.04MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  19.77MB/19.77MB[14B[14A[2Kb5dc755b592d: Pull complete [14B[13A[2Ka9b58f59d33b: Extracting  557.1kB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  8.356MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  16.15MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  23.95MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  31.75MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  38.99MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  46.24MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  54.59MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  62.39MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  70.19MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  74.65MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  80.77MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  84.12MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  87.46MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  90.24MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  93.59MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  97.48MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  100.8MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  104.2MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  107.5MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  110.9MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  113.6MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  116.4MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  119.8MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  122.6MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  125.3MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  128.1MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  130.9MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  133.1MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  136.5MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  140.4MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  143.7MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  151.5MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  159.9MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  168.2MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  176.6MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  184.4MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  192.2MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  192.5MB/192.5MB[13B[13A[2Ka9b58f59d33b: Pull complete [13B[12A[2Kea18a6ec8444: Extracting     160B/160B[12B[12A[2Kea18a6ec8444: Extracting     160B/160B[12B[12A[2Kea18a6ec8444: Pull complete [12B[11A[2K6d7a0177846e: Extracting  327.7kB/31.18MB[11B[11A[2K6d7a0177846e: Extracting   4.26MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting   8.52MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  13.11MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  17.37MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  20.97MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  22.28MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  23.92MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  25.89MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  26.87MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  28.51MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  29.82MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting   30.8MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  31.18MB/31.18MB[11B[11A[2K6d7a0177846e: Pull complete [11B[10A[2Kfa2950f078a7: Extracting   98.3kB/8.736MB[10B[10A[2Kfa2950f078a7: Extracting  3.539MB/8.736MB[10B[10A[2Kfa2950f078a7: Extracting  8.736MB/8.736MB[10B[10A[2Kfa2950f078a7: Pull complete [10B[9A[2Ka1335d143d6a: Extracting     850B/850B[9B[9A[2Ka1335d143d6a: Extracting     850B/850B[9B[9A[2Ka1335d143d6a: Pull complete [9B[8A[2K011fcaf7a962: Extracting     359B/359B[8B[8A[2K011fcaf7a962: Extracting     359B/359B[8B[8A[2K011fcaf7a962: Pull complete [8B[7A[2K8e543826f143: Extracting     127B/127B[7B[7A[2K8e543826f143: Extracting     127B/127B[7B[7A[2K8e543826f143: Pull complete [7B[6A[2Kcbfd84b30286: Extracting  393.2kB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  4.325MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  12.19MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  20.05MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  28.31MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  36.57MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  38.58MB/38.58MB[6B[6A[2Kcbfd84b30286: Pull complete [6B[5A[2Kd3efbc6df92e: Extracting  163.8kB/15.36MB[5B[5A[2Kd3efbc6df92e: Extracting  4.096MB/15.36MB[5B[5A[2Kd3efbc6df92e: Extracting  12.12MB/15.36MB[5B[5A[2Kd3efbc6df92e: Extracting  15.36MB/15.36MB[5B[5A[2Kd3efbc6df92e: Pull complete [5B[4A[2K250e02f57121: Extracting  196.6kB/16.8MB[4B[4A[2K250e02f57121: Extracting  3.932MB/16.8MB[4B[4A[2K250e02f57121: Extracting  12.19MB/16.8MB[4B[4A[2K250e02f57121: Extracting   16.8MB/16.8MB[4B[4A[2K250e02f57121: Pull complete [4B[3A[2K65001f8f7510: Extracting     296B/296B[3B[3A[2K65001f8f7510: Extracting     296B/296B[3B[3A[2K65001f8f7510: Pull complete [3B[2A[2K061e855fe114: Extracting     150B/150B[2B[2A[2K061e855fe114: Extracting     150B/150B[2B[2A[2K061e855fe114: Pull complete [2B[1A[2Kbf71f62ca87a: Extracting     147B/147B[1B[1A[2Kbf71f62ca87a: Extracting     147B/147B[1B[1A[2Kbf71f62ca87a: Pull complete [1BDigest: sha256:d7e6c86b4e8d04c54cf38eff2ded5fc8c8fa3d2e257da26b178e9086afeb0b5c
+Status: Downloaded newer image for diogoantunes25/alea-code:latest
+docker.io/diogoantunes25/alea-code:latest
+Running master from ~/exp0.alea
+Master running on port 15000
+$ PCS IP: 172.16.37.11, port: 8500
+$ $ The id of the replica is 0
+New replica spawned
+$ $ The id of the replica is 1
+New replica spawned
+$ $ The id of the replica is 2
+New replica spawned
+$ $ The id of the replica is 3
+New replica spawned
+$ $ The id of the replica is 4
+New replica spawned
+$ $ The id of the replica is 5
+New replica spawned
+$ $ The id of the replica is 6
+New replica spawned
+$ $ The id of the replica is 7
+New replica spawned
+$ $ The id of the replica is 8
+New replica spawned
+$ $ The id of the replica is 9
+New replica spawned
+$ $ The id of the replica is 10
+New replica spawned
+$ $ The id of the replica is 11
+New replica spawned
+$ $ The id of the replica is 12
+New replica spawned
+$ $ The id of the replica is 13
+New replica spawned
+$ $ The id of the replica is 14
+New replica spawned
+$ $ The id of the replica is 15
+New replica spawned
+$ $ The id of the replica is 16
+New replica spawned
+$ $ The id of the replica is 17
+New replica spawned
+$ $ The id of the replica is 18
+New replica spawned
+$ $ The id of the replica is 19
+New replica spawned
+$ $ The id of the replica is 20
+New replica spawned
+$ $ The id of the replica is 21
+New replica spawned
+$ $ The id of the replica is 22
+New replica spawned
+$ $ The id of the replica is 23
+New replica spawned
+$ $ The id of the replica is 24
+New replica spawned
+$ $ The id of the replica is 25
+New replica spawned
+$ $ The id of the replica is 26
+New replica spawned
+$ $ The id of the replica is 27
+New replica spawned
+$ $ The id of the replica is 28
+New replica spawned
+$ $ The id of the replica is 29
+New replica spawned
+$ $ The id of the replica is 30
+New replica spawned
+$ $ The id of the replica is 31
+New replica spawned
+$ $ Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+26
+21
+4
+29
+25
+6
+10
+5
+2
+30
+22
+27
+13
+1
+24
+23
+16
+12
+28
+14
+0
+15
+8
+17
+3
+31
+11
+7
+20
+18
+9
+19
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+21
+3
+19
+12
+14
+13
+6
+31
+24
+17
+10
+2
+26
+29
+16
+5
+27
+30
+7
+28
+11
+22
+25
+23
+4
+20
+8
+0
+15
+18
+1
+9
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+16
+8
+0
+26
+9
+18
+22
+23
+25
+27
+1
+2
+15
+29
+4
+28
+14
+12
+7
+13
+30
+10
+31
+11
+20
+3
+21
+17
+19
+5
+6
+24
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+8
+14
+10
+24
+27
+21
+17
+16
+12
+28
+6
+15
+30
+1
+11
+7
+25
+13
+18
+9
+19
+22
+20
+2
+23
+4
+0
+31
+5
+29
+3
+26
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+27
+12
+7
+31
+20
+3
+23
+26
+29
+28
+24
+8
+19
+11
+16
+2
+30
+0
+6
+15
+14
+9
+22
+4
+1
+10
+13
+5
+21
+25
+17
+18
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+23
+3
+0
+14
+9
+2
+6
+25
+15
+21
+24
+20
+19
+4
+30
+17
+22
+26
+10
+8
+7
+16
+28
+13
+18
+27
+1
+11
+31
+5
+12
+29
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+19
+11
+13
+17
+15
+26
+8
+24
+14
+12
+1
+3
+31
+28
+5
+29
+10
+16
+18
+27
+23
+6
+30
+9
+25
+7
+4
+21
+22
+0
+20
+2
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+13
+5
+9
+31
+10
+25
+11
+12
+19
+1
+16
+0
+7
+18
+20
+15
+2
+29
+22
+3
+26
+6
+23
+14
+24
+4
+28
+8
+30
+27
+21
+17
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+27
+18
+29
+26
+11
+17
+16
+22
+8
+10
+25
+1
+20
+28
+9
+13
+5
+31
+15
+3
+0
+4
+12
+23
+6
+14
+21
+19
+2
+7
+24
+30
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+13
+7
+12
+6
+11
+17
+5
+20
+28
+2
+3
+14
+25
+21
+24
+18
+30
+16
+19
+27
+1
+26
+31
+0
+9
+22
+29
+10
+8
+15
+23
+4
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+19
+30
+20
+10
+15
+25
+26
+8
+14
+18
+13
+24
+3
+9
+16
+29
+6
+17
+11
+0
+23
+22
+2
+12
+1
+27
+4
+7
+28
+5
+21
+31
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+7
+21
+28
+17
+30
+14
+5
+23
+22
+9
+25
+8
+3
+26
+18
+0
+2
+12
+24
+10
+15
+11
+29
+20
+13
+27
+19
+16
+1
+6
+4
+31
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+21
+19
+31
+13
+27
+28
+11
+1
+23
+17
+15
+12
+0
+25
+10
+22
+14
+16
+20
+26
+8
+24
+2
+6
+29
+3
+18
+7
+30
+9
+5
+4
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+18
+31
+9
+24
+23
+30
+28
+17
+6
+5
+12
+19
+13
+29
+4
+16
+0
+21
+14
+1
+27
+22
+25
+15
+7
+3
+2
+10
+20
+11
+26
+8
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+3
+24
+25
+5
+21
+26
+23
+18
+13
+11
+14
+17
+31
+9
+28
+19
+0
+20
+6
+27
+30
+15
+10
+22
+29
+12
+1
+8
+16
+2
+7
+4
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+18
+11
+20
+6
+31
+23
+16
+9
+4
+28
+5
+14
+26
+27
+21
+2
+15
+19
+3
+22
+7
+17
+30
+29
+10
+8
+13
+0
+12
+25
+24
+1
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+28
+8
+5
+6
+15
+16
+10
+31
+19
+14
+27
+21
+23
+12
+18
+30
+17
+0
+1
+20
+22
+13
+9
+7
+2
+29
+4
+11
+24
+25
+3
+26
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+16
+28
+6
+12
+20
+1
+13
+9
+11
+31
+3
+22
+17
+18
+21
+24
+4
+25
+2
+8
+29
+26
+15
+14
+19
+5
+0
+23
+10
+30
+7
+27
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+24
+10
+13
+19
+12
+21
+28
+17
+5
+31
+6
+2
+7
+14
+18
+4
+15
+3
+16
+1
+0
+29
+25
+9
+23
+8
+11
+22
+27
+20
+30
+26
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+17
+6
+19
+14
+30
+10
+0
+27
+2
+24
+7
+21
+28
+31
+5
+25
+12
+13
+20
+16
+3
+29
+26
+15
+4
+9
+8
+18
+23
+1
+11
+22
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+23
+13
+27
+1
+18
+31
+17
+21
+26
+24
+9
+16
+19
+8
+5
+3
+22
+15
+7
+25
+29
+6
+30
+4
+0
+10
+20
+28
+12
+14
+2
+11
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+12
+23
+4
+27
+28
+7
+20
+1
+16
+15
+13
+26
+21
+9
+8
+11
+29
+6
+19
+14
+22
+2
+30
+24
+18
+17
+10
+31
+5
+25
+0
+3
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+12
+27
+0
+14
+20
+2
+26
+3
+9
+21
+15
+17
+8
+22
+25
+4
+7
+10
+30
+28
+31
+16
+6
+24
+13
+1
+29
+5
+23
+18
+19
+11
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+31
+7
+8
+18
+15
+17
+4
+21
+12
+13
+1
+10
+6
+2
+22
+29
+16
+20
+28
+0
+11
+27
+26
+14
+19
+25
+30
+23
+24
+5
+3
+9
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+23
+4
+14
+0
+26
+9
+1
+5
+12
+2
+25
+19
+11
+24
+20
+6
+18
+22
+29
+27
+15
+7
+16
+28
+10
+31
+3
+21
+30
+13
+17
+8
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+24
+30
+25
+19
+0
+1
+17
+12
+14
+9
+22
+2
+6
+16
+18
+27
+28
+5
+26
+4
+8
+31
+23
+10
+7
+21
+3
+20
+15
+29
+13
+11
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+7
+24
+4
+6
+26
+27
+8
+20
+17
+22
+9
+1
+19
+3
+31
+10
+14
+0
+5
+29
+25
+11
+13
+30
+12
+23
+18
+16
+28
+21
+15
+2
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+8
+9
+12
+22
+13
+16
+2
+17
+20
+6
+18
+21
+10
+15
+7
+1
+14
+29
+4
+23
+3
+26
+25
+31
+28
+0
+27
+19
+30
+24
+11
+5
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+22
+15
+25
+21
+31
+27
+4
+2
+16
+0
+18
+20
+6
+26
+23
+5
+1
+13
+14
+17
+19
+11
+29
+8
+9
+12
+7
+10
+3
+30
+24
+28
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+5
+7
+19
+18
+3
+24
+30
+13
+31
+1
+11
+6
+14
+0
+17
+10
+25
+12
+26
+23
+29
+22
+20
+4
+21
+16
+27
+8
+9
+15
+2
+28
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+0
+22
+25
+11
+19
+27
+18
+21
+16
+4
+31
+17
+20
+7
+10
+9
+8
+13
+24
+23
+6
+2
+15
+12
+26
+14
+1
+30
+29
+3
+28
+5
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+17
+13
+24
+30
+15
+21
+14
+5
+7
+20
+1
+4
+29
+22
+0
+18
+31
+9
+12
+6
+8
+3
+27
+10
+23
+25
+19
+2
+16
+28
+11
+26
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+9
+30
+2
+17
+26
+12
+27
+29
+8
+22
+1
+15
+19
+10
+0
+21
+11
+20
+18
+5
+25
+3
+14
+16
+23
+7
+31
+24
+28
+6
+4
+13
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+5
+13
+21
+20
+6
+3
+11
+2
+4
+30
+24
+19
+12
+31
+7
+0
+17
+23
+8
+10
+27
+22
+29
+25
+26
+14
+1
+9
+18
+16
+28
+15
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+1
+23
+16
+19
+13
+3
+25
+5
+12
+14
+6
+10
+20
+0
+29
+7
+22
+11
+31
+30
+4
+18
+27
+21
+8
+17
+15
+28
+24
+2
+26
+9
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+12
+17
+13
+23
+20
+1
+10
+25
+7
+26
+29
+11
+6
+5
+19
+16
+28
+14
+30
+22
+15
+9
+0
+21
+24
+4
+31
+27
+18
+3
+2
+8
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+21
+7
+31
+30
+11
+12
+19
+4
+9
+10
+3
+1
+20
+29
+27
+15
+23
+5
+25
+2
+22
+13
+14
+6
+17
+24
+26
+16
+8
+28
+18
+0
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+12
+14
+20
+28
+26
+15
+29
+11
+18
+3
+19
+24
+9
+1
+13
+6
+17
+8
+27
+16
+0
+5
+7
+23
+2
+4
+31
+22
+10
+25
+21
+30
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+5
+7
+15
+21
+10
+22
+29
+9
+17
+3
+1
+20
+0
+8
+19
+11
+31
+13
+12
+27
+18
+14
+24
+4
+16
+30
+25
+2
+28
+23
+6
+26
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+21
+30
+9
+20
+19
+16
+29
+8
+14
+18
+22
+5
+17
+2
+4
+0
+28
+12
+15
+13
+6
+26
+11
+24
+7
+1
+25
+23
+3
+31
+27
+10
+$ $ $ Waiting for shutdown responses...
