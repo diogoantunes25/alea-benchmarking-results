@@ -1,0 +1,1012 @@
+sudo-g5k
+curl -sSL https://get.docker.com/ | sh
++ sudo -E sh -c apt-get update -qq >/dev/null
++ sudo -E sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq apt-transport-https ca-certificates curl >/dev/null
++ sudo -E sh -c mkdir -p /etc/apt/keyrings && chmod -R 0755 /etc/apt/keyrings
++ sudo -E sh -c curl -fsSL "https://download.docker.com/linux/debian/gpg" | gpg --dearmor --yes -o /etc/apt/keyrings/docker.gpg
++ sudo -E sh -c chmod a+r /etc/apt/keyrings/docker.gpg
++ sudo -E sh -c echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian bullseye stable" > /etc/apt/sources.list.d/docker.list
++ sudo -E sh -c apt-get update -qq >/dev/null
++ sudo -E sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommends docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-scan-plugin >/dev/null
++ version_gte 20.10
++ [ -z  ]
++ return 0
++ sudo -E sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq docker-ce-rootless-extras >/dev/null
++ sudo -E sh -c docker version
+sudo curl -sSL "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+sudo mkdir -p /etc/docker
+echo "{ \"registry-mirrors\": [\"http://docker-cache.grid5000.fr\"] }" | sudo tee /etc/docker/daemon.json
+sudo systemctl restart docker
+sudo chmod o+rw /var/run/docker.sock
+Using default tag: latest
+latest: Pulling from diogoantunes25/alea-code
+
+[1A[2Kd5fd17ec1767: Pulling fs layer [1B
+[1A[2Kb5dc755b592d: Pulling fs layer [1B
+[1A[2Ka9b58f59d33b: Pulling fs layer [1B
+[1A[2Kea18a6ec8444: Pulling fs layer [1B
+[1A[2K6d7a0177846e: Pulling fs layer [1B
+[1A[2Kfa2950f078a7: Pulling fs layer [1B
+[1A[2Ka1335d143d6a: Pulling fs layer [1B
+[1A[2K011fcaf7a962: Pulling fs layer [1B
+[1A[2K8e543826f143: Pulling fs layer [1B
+[1A[2Kcbfd84b30286: Pulling fs layer [1B
+[1A[2Kd3efbc6df92e: Pulling fs layer [1B
+[1A[2K250e02f57121: Pulling fs layer [1B[6A[2Ka1335d143d6a: Waiting [6B[8A[2K6d7a0177846e: Waiting [8B[9A[2Kea18a6ec8444: Waiting [9B
+[1A[2K65001f8f7510: Pulling fs layer [1B[4A[2Kcbfd84b30286: Waiting [4B
+[1A[2K061e855fe114: Pulling fs layer [1B[7A[2K011fcaf7a962: Waiting [7B[6A[2K8e543826f143: Waiting [6B
+[1A[2Kbf71f62ca87a: Pulling fs layer [1B[5A[2Kd3efbc6df92e: Waiting [5B[4A[2K250e02f57121: Waiting [4B[3A[2K65001f8f7510: Waiting [3B[2A[2K061e855fe114: Waiting [2B[1A[2Kbf71f62ca87a: Waiting [1B[14A[2Kb5dc755b592d: Downloading  198.2kB/19.77MB[14B[15A[2Kd5fd17ec1767: Downloading  318.4kB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  555.7kB/192.5MB[13B[14A[2Kb5dc755b592d: Downloading  7.518MB/19.77MB[14B[15A[2Kd5fd17ec1767: Downloading  8.574MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  9.986MB/192.5MB[13B[14A[2Kb5dc755b592d: Downloading  17.15MB/19.77MB[14B[15A[2Kd5fd17ec1767: Downloading  18.01MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  19.46MB/192.5MB[13B[14A[2Kb5dc755b592d: Verifying Checksum [14B[14A[2Kb5dc755b592d: Download complete [14B[12A[2Kea18a6ec8444: Downloading     160B/160B[12B[12A[2Kea18a6ec8444: Verifying Checksum [12B[12A[2Kea18a6ec8444: Download complete [12B[15A[2Kd5fd17ec1767: Downloading  27.74MB/28.57MB[15B[15A[2Kd5fd17ec1767: Download complete [15B[13A[2Ka9b58f59d33b: Downloading  28.93MB/192.5MB[13B[11A[2K6d7a0177846e: Downloading  334.7kB/31.18MB[11B[10A[2Kfa2950f078a7: Downloading  92.15kB/8.736MB[10B[15A[2Kd5fd17ec1767: Extracting  294.9kB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  37.84MB/192.5MB[13B[11A[2K6d7a0177846e: Downloading  8.195MB/31.18MB[11B[10A[2Kfa2950f078a7: Downloading   6.31MB/8.736MB[10B[10A[2Kfa2950f078a7: Verifying Checksum [10B[10A[2Kfa2950f078a7: Download complete [10B[15A[2Kd5fd17ec1767: Extracting  3.539MB/28.57MB[15B[9A[2Ka1335d143d6a: Downloading     850B/850B[9B[9A[2Ka1335d143d6a: Verifying Checksum [9B[9A[2Ka1335d143d6a: Download complete [9B[13A[2Ka9b58f59d33b: Downloading   46.2MB/192.5MB[13B[11A[2K6d7a0177846e: Downloading  16.39MB/31.18MB[11B[8A[2K011fcaf7a962: Downloading     359B/359B[8B[8A[2K011fcaf7a962: Download complete [8B[7A[2K8e543826f143: Downloading     127B/127B[7B[7A[2K8e543826f143: Download complete [7B[15A[2Kd5fd17ec1767: Extracting  6.488MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  54.55MB/192.5MB[13B[11A[2K6d7a0177846e: Downloading  24.91MB/31.18MB[11B[6A[2Kcbfd84b30286: Downloading  408.2kB/38.58MB[6B[15A[2Kd5fd17ec1767: Extracting  9.142MB/28.57MB[15B[11A[2K6d7a0177846e: Verifying Checksum [11B[11A[2K6d7a0177846e: Download complete [11B[13A[2Ka9b58f59d33b: Downloading  61.79MB/192.5MB[13B[6A[2Kcbfd84b30286: Downloading  1.592MB/38.58MB[6B[5A[2Kd3efbc6df92e: Downloading  184.1kB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting  10.91MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  70.71MB/192.5MB[13B[6A[2Kcbfd84b30286: Downloading  2.792MB/38.58MB[6B[5A[2Kd3efbc6df92e: Downloading  1.493MB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting  13.86MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  79.06MB/192.5MB[13B[6A[2Kcbfd84b30286: Downloading  3.994MB/38.58MB[6B[5A[2Kd3efbc6df92e: Downloading  2.835MB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting   17.4MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  87.42MB/192.5MB[13B[6A[2Kcbfd84b30286: Downloading   5.23MB/38.58MB[6B[5A[2Kd3efbc6df92e: Downloading  4.063MB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting  20.94MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  95.77MB/192.5MB[13B[6A[2Kcbfd84b30286: Downloading  12.31MB/38.58MB[6B[5A[2Kd3efbc6df92e: Downloading  12.08MB/15.36MB[5B[15A[2Kd5fd17ec1767: Extracting  23.89MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  104.7MB/192.5MB[13B[5A[2Kd3efbc6df92e: Downloading  15.36MB/15.36MB[5B[5A[2Kd3efbc6df92e: Verifying Checksum [5B[5A[2Kd3efbc6df92e: Download complete [5B[6A[2Kcbfd84b30286: Downloading  20.57MB/38.58MB[6B[4A[2K250e02f57121: Downloading  184.3kB/16.8MB[4B[15A[2Kd5fd17ec1767: Extracting  24.48MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading    113MB/192.5MB[13B[6A[2Kcbfd84b30286: Downloading  28.83MB/38.58MB[6B[4A[2K250e02f57121: Downloading  6.992MB/16.8MB[4B[15A[2Kd5fd17ec1767: Extracting  27.13MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading    122MB/192.5MB[13B[6A[2Kcbfd84b30286: Downloading  37.08MB/38.58MB[6B[4A[2K250e02f57121: Downloading  15.45MB/16.8MB[4B[6A[2Kcbfd84b30286: Verifying Checksum [6B[6A[2Kcbfd84b30286: Download complete [6B[4A[2K250e02f57121: Downloading   16.8MB/16.8MB[4B[4A[2K250e02f57121: Verifying Checksum [4B[4A[2K250e02f57121: Download complete [4B[15A[2Kd5fd17ec1767: Extracting  28.31MB/28.57MB[15B[3A[2K65001f8f7510: Downloading     296B/296B[3B[3A[2K65001f8f7510: Verifying Checksum [3B[3A[2K65001f8f7510: Download complete [3B[2A[2K061e855fe114: Downloading     150B/150B[2B[2A[2K061e855fe114: Download complete [2B[13A[2Ka9b58f59d33b: Downloading  130.9MB/192.5MB[13B[1A[2Kbf71f62ca87a: Downloading     147B/147B[1B[1A[2Kbf71f62ca87a: Verifying Checksum [1B[1A[2Kbf71f62ca87a: Download complete [1B[15A[2Kd5fd17ec1767: Extracting  28.57MB/28.57MB[15B[13A[2Ka9b58f59d33b: Downloading  139.2MB/192.5MB[13B[15A[2Kd5fd17ec1767: Pull complete [15B[14A[2Kb5dc755b592d: Extracting  229.4kB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  148.1MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting  2.523MB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  156.5MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting  4.817MB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  164.8MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting  8.716MB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading  173.8MB/192.5MB[13B[13A[2Ka9b58f59d33b: Downloading  182.7MB/192.5MB[13B[14A[2Kb5dc755b592d: Extracting   11.7MB/19.77MB[14B[13A[2Ka9b58f59d33b: Downloading    191MB/192.5MB[13B[13A[2Ka9b58f59d33b: Verifying Checksum [13B[13A[2Ka9b58f59d33b: Download complete [13B[14A[2Kb5dc755b592d: Extracting  16.06MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  17.43MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  18.58MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  19.04MB/19.77MB[14B[14A[2Kb5dc755b592d: Extracting  19.77MB/19.77MB[14B[14A[2Kb5dc755b592d: Pull complete [14B[13A[2Ka9b58f59d33b: Extracting  557.1kB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  10.03MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  18.94MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  26.74MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  35.09MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  43.45MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  52.36MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  60.72MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  69.07MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  75.76MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  81.33MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  84.67MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  88.01MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  91.36MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting   94.7MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting   98.6MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  101.9MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  105.3MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  108.6MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting    112MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  114.8MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  118.1MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  120.9MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  123.7MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting    127MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  129.2MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  132.6MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  135.9MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  139.3MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  143.2MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  150.4MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  159.3MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  168.8MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  177.7MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  187.2MB/192.5MB[13B[13A[2Ka9b58f59d33b: Extracting  192.5MB/192.5MB[13B[13A[2Ka9b58f59d33b: Pull complete [13B[12A[2Kea18a6ec8444: Extracting     160B/160B[12B[12A[2Kea18a6ec8444: Extracting     160B/160B[12B[12A[2Kea18a6ec8444: Pull complete [12B[11A[2K6d7a0177846e: Extracting  327.7kB/31.18MB[11B[11A[2K6d7a0177846e: Extracting   4.26MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  8.847MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  13.43MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  18.02MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting   21.3MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  22.61MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting   24.9MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  26.54MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  28.18MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  29.49MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting   30.8MB/31.18MB[11B[11A[2K6d7a0177846e: Extracting  31.18MB/31.18MB[11B[11A[2K6d7a0177846e: Pull complete [11B[10A[2Kfa2950f078a7: Extracting   98.3kB/8.736MB[10B[10A[2Kfa2950f078a7: Extracting   4.03MB/8.736MB[10B[10A[2Kfa2950f078a7: Extracting  8.736MB/8.736MB[10B[10A[2Kfa2950f078a7: Pull complete [10B[9A[2Ka1335d143d6a: Extracting     850B/850B[9B[9A[2Ka1335d143d6a: Extracting     850B/850B[9B[9A[2Ka1335d143d6a: Pull complete [9B[8A[2K011fcaf7a962: Extracting     359B/359B[8B[8A[2K011fcaf7a962: Extracting     359B/359B[8B[8A[2K011fcaf7a962: Pull complete [8B[7A[2K8e543826f143: Extracting     127B/127B[7B[7A[2K8e543826f143: Extracting     127B/127B[7B[7A[2K8e543826f143: Pull complete [7B[6A[2Kcbfd84b30286: Extracting  393.2kB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  4.719MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  13.76MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  22.81MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  31.85MB/38.58MB[6B[6A[2Kcbfd84b30286: Extracting  38.58MB/38.58MB[6B[6A[2Kcbfd84b30286: Pull complete [6B[5A[2Kd3efbc6df92e: Extracting  163.8kB/15.36MB[5B[5A[2Kd3efbc6df92e: Extracting  4.424MB/15.36MB[5B[5A[2Kd3efbc6df92e: Extracting  13.11MB/15.36MB[5B[5A[2Kd3efbc6df92e: Extracting  15.36MB/15.36MB[5B[5A[2Kd3efbc6df92e: Pull complete [5B[4A[2K250e02f57121: Extracting  196.6kB/16.8MB[4B[4A[2K250e02f57121: Extracting  4.915MB/16.8MB[4B[4A[2K250e02f57121: Extracting  13.57MB/16.8MB[4B[4A[2K250e02f57121: Extracting   16.8MB/16.8MB[4B[4A[2K250e02f57121: Pull complete [4B[3A[2K65001f8f7510: Extracting     296B/296B[3B[3A[2K65001f8f7510: Extracting     296B/296B[3B[3A[2K65001f8f7510: Pull complete [3B[2A[2K061e855fe114: Extracting     150B/150B[2B[2A[2K061e855fe114: Extracting     150B/150B[2B[2A[2K061e855fe114: Pull complete [2B[1A[2Kbf71f62ca87a: Extracting     147B/147B[1B[1A[2Kbf71f62ca87a: Extracting     147B/147B[1B[1A[2Kbf71f62ca87a: Pull complete [1BDigest: sha256:d7e6c86b4e8d04c54cf38eff2ded5fc8c8fa3d2e257da26b178e9086afeb0b5c
+Status: Downloaded newer image for diogoantunes25/alea-code:latest
+docker.io/diogoantunes25/alea-code:latest
+Running master from ~/exp0.alea
+Master running on port 15000
+$ PCS IP: 172.16.192.19, port: 8500
+$ $ The id of the replica is 0
+New replica spawned
+$ $ The id of the replica is 1
+New replica spawned
+$ $ The id of the replica is 2
+New replica spawned
+$ $ The id of the replica is 3
+New replica spawned
+$ $ The id of the replica is 4
+New replica spawned
+$ $ The id of the replica is 5
+New replica spawned
+$ $ The id of the replica is 6
+New replica spawned
+$ $ The id of the replica is 7
+New replica spawned
+$ $ The id of the replica is 8
+New replica spawned
+$ $ The id of the replica is 9
+New replica spawned
+$ $ The id of the replica is 10
+New replica spawned
+$ $ The id of the replica is 11
+New replica spawned
+$ $ The id of the replica is 12
+New replica spawned
+$ $ The id of the replica is 13
+New replica spawned
+$ $ The id of the replica is 14
+New replica spawned
+$ $ The id of the replica is 15
+New replica spawned
+$ $ The id of the replica is 16
+New replica spawned
+$ $ The id of the replica is 17
+New replica spawned
+$ $ The id of the replica is 18
+New replica spawned
+$ $ The id of the replica is 19
+New replica spawned
+$ $ The id of the replica is 20
+New replica spawned
+$ $ The id of the replica is 21
+New replica spawned
+$ $ The id of the replica is 22
+New replica spawned
+$ $ The id of the replica is 23
+New replica spawned
+$ $ The id of the replica is 24
+New replica spawned
+$ $ The id of the replica is 25
+New replica spawned
+$ $ The id of the replica is 26
+New replica spawned
+$ $ The id of the replica is 27
+New replica spawned
+$ $ The id of the replica is 28
+New replica spawned
+$ $ The id of the replica is 29
+New replica spawned
+$ $ The id of the replica is 30
+New replica spawned
+$ $ The id of the replica is 31
+New replica spawned
+$ $ Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+16
+12
+21
+30
+10
+11
+23
+28
+17
+0
+24
+13
+18
+9
+20
+26
+6
+29
+5
+2
+15
+25
+4
+31
+8
+27
+14
+19
+22
+1
+3
+7
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+10
+18
+16
+2
+11
+17
+27
+21
+20
+19
+23
+13
+12
+5
+15
+6
+25
+22
+1
+24
+3
+7
+0
+30
+31
+9
+8
+29
+14
+28
+4
+26
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+23
+16
+12
+10
+2
+17
+21
+20
+15
+30
+18
+25
+24
+11
+26
+6
+9
+31
+19
+3
+22
+29
+4
+27
+0
+1
+13
+7
+14
+28
+8
+5
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+10
+2
+21
+17
+16
+12
+9
+30
+27
+20
+23
+25
+3
+15
+4
+28
+1
+14
+24
+0
+29
+19
+22
+26
+5
+31
+11
+18
+13
+7
+8
+6
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+2
+16
+12
+21
+17
+10
+9
+25
+18
+11
+1
+8
+20
+15
+3
+27
+24
+30
+23
+14
+4
+7
+5
+13
+6
+26
+19
+31
+28
+0
+29
+22
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+24
+2
+21
+11
+9
+16
+25
+17
+10
+18
+12
+3
+28
+31
+1
+23
+27
+26
+19
+6
+30
+7
+15
+29
+20
+13
+4
+14
+8
+22
+0
+5
+$ $ Waiting for protocol replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [start benchmark] Setting up request
+[start benchmark] Sending request
+[start benchmark] Waiting for responses
+Waiting for replies...
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+$ $ [stop benchmark] Setting up request
+[stop benchmark] Sending request
+[stop benchmark] Waiting for replies
+Running benchmarks...
+31
+10
+stop benchmark failed
+io.grpc.StatusRuntimeException: UNAVAILABLE: Network closed for unknown reason
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+17
+11
+13
+12
+0
+25
+$ $ Waiting for protocol replies...
+set protocol failed
+io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /172.16.192.19:10003
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.grpc.netty.shaded.io.netty.channel.unix.Errors.throwConnectException(Errors.java:124)
+	at io.grpc.netty.shaded.io.netty.channel.unix.Socket.finishConnect(Socket.java:251)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:672)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:649)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:529)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:465)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+29
+24
+9
+set protocol failed
+io.grpc.StatusRuntimeException: UNAVAILABLE: Network closed for unknown reason
+stop benchmark failed
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+io.grpc.StatusRuntimeException: UNAVAILABLE: Network closed for unknown reason
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+21
+true
+stop benchmark failed
+set protocol failed
+io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.grpc.netty.shaded.io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.grpc.netty.shaded.io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+true
+27
+true
+20
+true
+18
+true
+2
+true
+23
+true
+1
+true
+28
+true
+5
+true
+stop benchmark failed
+set protocol failed
+io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.grpc.netty.shaded.io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at io.grpc.Status.asRuntimeException(Status.java:535)
+	at io.grpc.stub.ClientCalls$StreamObserverToCallListenerAdapter.onClose(ClientCalls.java:478)
+	at io.grpc.internal.ClientCallImpl.closeObserver(ClientCallImpl.java:557)
+	at io.grpc.internal.ClientCallImpl.access$300(ClientCallImpl.java:69)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInternal(ClientCallImpl.java:738)
+	at io.grpc.internal.ClientCallImpl$ClientStreamListenerImpl$1StreamClosed.runInContext(ClientCallImpl.java:717)
+	at io.grpc.internal.ContextRunnable.run(ContextRunnable.java:37)
+	at io.grpc.internal.SerializingExecutor.run(SerializingExecutor.java:133)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.grpc.netty.shaded.io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
+true
+15
+true
+30
+22
+true
