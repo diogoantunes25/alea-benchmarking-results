@@ -1,0 +1,96 @@
+LOG FILE FOR REPLICA 2
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - setTopology - replicas:[0, 1, 2, 3, 4], N:5, f:1
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Setting network topology
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942468] Running TCP server at port 9002.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - Aborted connection to replica 2 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942476] Attempting connection to replica 0 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - Aborted connection to replica 2 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942476] Attempting connection to replica 0 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - Aborted connection to replica 2 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942477] Attempting connection to replica 1 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - Aborted connection to replica 2 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942477] Attempting connection to replica 1 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942480] Socket to 172.16.100.8:3, channel 0 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942480] Attempting connection to replica 3 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942481] Socket to 172.16.100.8:3, channel 1 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942481] Attempting connection to replica 3 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942481] Socket to 172.16.100.8:4, channel 0 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942481] Attempting connection to replica 4 on channel 0.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942482] Socket to 172.16.100.8:4, channel 1 opened - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942482] Attempting connection to replica 4 on channel 1.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942484] Missing 4 connections.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942561] New connection accepted, waiting for info
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942562] Connection from replica 0 on channel 0.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942562] Missing 3 connections.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942562] New connection accepted, waiting for info
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942562] Connection from replica 0 on channel 1.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942562] Missing 2 connections.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942562] New connection accepted, waiting for info
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942563] Connection from replica 1 on channel 0.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942564] Missing 1 connections.
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942564] New connection accepted, waiting for info
+[Thread-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.TcpTransport - [1660213942564] Connection from replica 1 on channel 1.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Connection status:
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942564] from 172.16.100.8:9002 to 172.16.100.8:9000 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942565] from 172.16.100.8:9002 to 172.16.100.8:9001 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942565] from 172.16.100.8:9002 to 172.16.100.8:9003 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942565] from 172.16.100.8:9002 to 172.16.100.8:9004 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942565] from 172.16.100.8:9002 to 172.16.100.8:9000 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942565] from 172.16.100.8:9002 to 172.16.100.8:9001 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942565] from 172.16.100.8:9002 to 172.16.100.8:9003 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - [1660213942565] from 172.16.100.8:9002 to 172.16.100.8:9004 - true
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - setProtocol - protocol:HONEY_BADGER, batchSize:10
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Initializing benchmark protocol
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.name: HONEY_BADGER
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.batch_size: 10
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.encryption: class pt.tecnico.ulisboa.hbbft.abc.honeybadger.crypto.NeverEncrypt
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.committee_size: 2
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.benchmark: false
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.payload_size: 250
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - protocol.params.faults: {0=FREE}
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Starting benchmark.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Stopping benchmark.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1638)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	at pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.Connection.lambda$setListener$1(Connection.java:109)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - Success.
+[grpc-default-executor-0] INFO pt.ulisboa.tecnico.thesis.benchmarks.replica.service.local.BenchmarkService - ------------------------------------------------------------------------
+
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1638)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	at pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.Connection.lambda$setListener$1(Connection.java:109)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1638)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	at pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.Connection.lambda$setListener$1(Connection.java:109)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1638)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	at pt.ulisboa.tecnico.thesis.benchmarks.replica.transport.Connection.lambda$setListener$1(Connection.java:109)
+	at java.base/java.lang.Thread.run(Thread.java:833)
