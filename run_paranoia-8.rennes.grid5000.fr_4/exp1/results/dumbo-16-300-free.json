@@ -1,0 +1,3273 @@
+{
+  "protocol": "dumbo",
+  "n": 16,
+  "batch-size": 300,
+  "payload-size": 250,
+  "fault": "free",
+  "results": [
+    {
+      "replica": 0,
+      "start": 1662626107901,
+      "finish": 1662626109938,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108130,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108406,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108636,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108889,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109097,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109355,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109597,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109886,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108130,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108406,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108636,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108889,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109097,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109354,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109597,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109886,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 1,
+      "start": 1662626107901,
+      "finish": 1662626109939,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108130,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108412,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108643,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108898,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109109,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109366,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109617,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109880,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108130,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108412,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108643,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108898,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109109,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109366,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109617,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109879,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 2,
+      "start": 1662626107901,
+      "finish": 1662626109937,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108123,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108405,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108640,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108899,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109103,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109378,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109604,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109874,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108123,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108405,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108640,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108899,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109103,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109378,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109604,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109874,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 3,
+      "start": 1662626107900,
+      "finish": 1662626109936,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108133,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108408,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108638,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108891,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109096,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109358,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109614,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109875,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108133,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108408,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108637,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108891,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109096,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109358,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109614,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109875,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 4,
+      "start": 1662626107901,
+      "finish": 1662626109942,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108144,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108410,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108637,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108893,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109098,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109352,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109593,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109872,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108144,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108410,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108637,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108893,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109098,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109352,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109593,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109871,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 5,
+      "start": 1662626107900,
+      "finish": 1662626109937,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108136,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108397,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108636,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108892,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109101,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109352,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109591,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109874,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108136,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108397,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108636,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108892,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109100,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109352,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109591,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109874,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 6,
+      "start": 1662626107902,
+      "finish": 1662626109937,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108125,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108407,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108633,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108895,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109102,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109360,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109606,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109882,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108125,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108407,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108633,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108895,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109101,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109359,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109606,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109881,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 7,
+      "start": 1662626107901,
+      "finish": 1662626109936,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108135,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108400,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108638,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108898,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109108,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109368,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109597,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109879,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108135,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108400,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108638,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108897,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109108,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109368,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109597,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109879,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 8,
+      "start": 1662626107900,
+      "finish": 1662626109937,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108145,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108427,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108641,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108883,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109102,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109364,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109609,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109883,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108145,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108427,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108641,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108883,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109102,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109364,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109609,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109883,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 9,
+      "start": 1662626107900,
+      "finish": 1662626109936,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108161,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108403,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108640,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108890,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109098,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109355,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109631,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109872,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108161,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108403,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108639,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108890,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109098,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109355,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109631,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109872,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 10,
+      "start": 1662626107900,
+      "finish": 1662626109935,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108124,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108397,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108641,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108884,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109107,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109355,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109592,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109881,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108124,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108396,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108641,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108883,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109107,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109355,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109592,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109881,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 11,
+      "start": 1662626107900,
+      "finish": 1662626109937,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108128,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108401,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108636,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108890,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109097,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109362,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109619,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109873,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108128,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108401,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108636,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108890,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109097,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109362,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109619,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109873,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 12,
+      "start": 1662626107901,
+      "finish": 1662626109947,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108126,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108409,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108647,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108890,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109095,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109358,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109594,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109876,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108125,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108409,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108646,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108889,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109095,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109357,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109594,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109876,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 13,
+      "start": 1662626107900,
+      "finish": 1662626109942,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108131,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108419,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108640,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108893,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109103,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109371,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109605,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109884,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108131,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108418,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108640,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108892,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109103,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109370,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109605,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109884,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 14,
+      "start": 1662626107900,
+      "finish": 1662626109935,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108124,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108404,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108639,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626108891,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109105,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109356,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109599,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109876,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108124,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108404,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108639,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108891,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109105,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109356,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109599,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109876,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 15,
+      "start": 1662626107901,
+      "finish": 1662626109946,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [
+        {
+          "timestamp": 1662626108139,
+          "value": 198,
+          "block": 0,
+          "proposers": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7,
+            9,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108408,
+          "value": 198,
+          "block": 1,
+          "proposers": [
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108634,
+          "value": 198,
+          "block": 2,
+          "proposers": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626108894,
+          "value": 198,
+          "block": 3,
+          "proposers": [
+            3,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109100,
+          "value": 198,
+          "block": 4,
+          "proposers": [
+            0,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "timestamp": 1662626109360,
+          "value": 198,
+          "block": 5,
+          "proposers": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109597,
+          "value": 198,
+          "block": 6,
+          "proposers": [
+            0,
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15
+          ]
+        },
+        {
+          "timestamp": 1662626109881,
+          "value": 198,
+          "block": 7,
+          "proposers": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            10,
+            12,
+            14,
+            15
+          ]
+        }
+      ],
+      "executions": [
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108139,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108408,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108634,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626108894,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109100,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109360,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109597,
+          "result": true
+        },
+        {
+          "pid": "node",
+          "start": 0,
+          "finish": 1662626109880,
+          "result": true
+        }
+      ]
+    }
+  ]
+}
