@@ -1,0 +1,28 @@
+pcs 0 172.16.100.3
+sleep 1000
+replica 0 0
+sleep 1000
+replica 0 1
+sleep 1000
+replica 0 2
+sleep 1000
+replica 0 3
+sleep 1000
+replica 0 4
+sleep 1000
+topology 0 1 2 3 4
+sleep 1000
+protocol hb 10 latency free
+sleep 1000
+start
+sleep 15
+stop
+sleep 1000
+protocol hb 20 latency free
+sleep 1000
+start
+sleep 15
+stop
+sleep 1000
+sleep 1000
+shutdown 500
