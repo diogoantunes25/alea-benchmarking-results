@@ -1,0 +1,228 @@
+pcs 0 172.16.100.3
+sleep 1000
+replica 0 0
+sleep 1000
+replica 0 1
+sleep 1000
+replica 0 2
+sleep 1000
+topology 0 1 2
+sleep 1000
+protocol alea 1 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 1 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 1 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 100 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 100 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 100 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 10000 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 10000 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol alea 10000 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 1 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 1 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 1 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 100 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 100 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 100 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 10000 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 10000 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol hb 10000 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 1
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 100
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 10000
+sleep 1000
+start
+sleep 60000
+stop
+sleep 1000
+sleep 1000
+shutdown 500

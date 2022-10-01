@@ -1,0 +1,53 @@
+{
+  "protocol": "dumbo",
+  "n": 3,
+  "batch-size": 1,
+  "payload-size": 250,
+  "fault": "free",
+  "load": 10000,
+  "results": [
+    {
+      "replica": 0,
+      "start": 1664651368167,
+      "finish": 1664651428185,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": []
+    },
+    {
+      "replica": 1,
+      "start": 1664651368167,
+      "finish": 1664651428185,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": []
+    },
+    {
+      "replica": 2,
+      "start": 1664651368166,
+      "finish": 1664651428185,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": [
+        {
+          "pid": "committer",
+          "start": 1664651369167,
+          "finish": 1664651369172,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664651369169,
+          "finish": 1664651369178,
+          "result": true
+        }
+      ]
+    }
+  ]
+}
