@@ -1,0 +1,47 @@
+{
+  "protocol": "hb",
+  "n": 3,
+  "batch-size": 100,
+  "payload-size": 250,
+  "fault": "free",
+  "load": 10000,
+  "results": [
+    {
+      "replica": 0,
+      "start": 1664648452429,
+      "finish": 1664648482446,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": [
+        {
+          "pid": "committer",
+          "start": 1664648453429,
+          "finish": 1664648453439,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 1,
+      "start": 1664648452429,
+      "finish": 1664648482446,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": []
+    },
+    {
+      "replica": 2,
+      "start": 1664648452429,
+      "finish": 1664648482446,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": []
+    }
+  ]
+}
