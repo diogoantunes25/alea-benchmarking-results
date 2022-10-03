@@ -1,0 +1,133 @@
+{
+  "protocol": "alea",
+  "n": 3,
+  "batch-size": 10,
+  "payload-size": 250,
+  "fault": "free",
+  "load": 1,
+  "results": [
+    {
+      "replica": 0,
+      "start": 1664835605036,
+      "finish": 1664835620048,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": [
+        {
+          "pid": "committer",
+          "start": 1664835609040,
+          "finish": 1664835615409,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835608040,
+          "finish": 1664835615409,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835606038,
+          "finish": 1664835615409,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835607040,
+          "finish": 1664835615409,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835610041,
+          "finish": 1664835615409,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 1,
+      "start": 1664835605037,
+      "finish": 1664835620050,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": [
+        {
+          "pid": "committer",
+          "start": 1664835606038,
+          "finish": 1664835615265,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835610041,
+          "finish": 1664835615265,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835608040,
+          "finish": 1664835615265,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835609041,
+          "finish": 1664835615265,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835607040,
+          "finish": 1664835615265,
+          "result": true
+        }
+      ]
+    },
+    {
+      "replica": 2,
+      "start": 1664835605034,
+      "finish": 1664835620048,
+      "sent-messages": 0,
+      "recv-messages": 0,
+      "latencies": [],
+      "throughputs": [],
+      "executions": [
+        {
+          "pid": "committer",
+          "start": 1664835608038,
+          "finish": 1664835615364,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835609039,
+          "finish": 1664835615364,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835606036,
+          "finish": 1664835615364,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835610039,
+          "finish": 1664835615364,
+          "result": true
+        },
+        {
+          "pid": "committer",
+          "start": 1664835607038,
+          "finish": 1664835615364,
+          "result": true
+        }
+      ]
+    }
+  ]
+}

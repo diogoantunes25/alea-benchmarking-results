@@ -1,0 +1,28 @@
+pcs 0 172.16.72.3
+sleep 1000
+pcs 1 172.16.72.29
+sleep 1000
+pcs 2 172.16.72.28
+sleep 1000
+replica 0 0
+sleep 1000
+replica 1 1
+sleep 1000
+replica 2 2
+sleep 1000
+topology 0 1 2
+sleep 1000
+protocol alea 10 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+sleep 1000
+shutdown 500
