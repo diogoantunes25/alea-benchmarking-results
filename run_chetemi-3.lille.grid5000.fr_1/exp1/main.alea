@@ -1,0 +1,5428 @@
+pcs 0 172.16.96.17
+sleep 1000
+pcs 1 172.16.72.27
+sleep 1000
+pcs 2 172.16.132.28
+sleep 1000
+pcs 3 172.16.20.29
+sleep 1000
+replica 0 0
+sleep 1000
+replica 1 1
+sleep 1000
+replica 2 2
+sleep 1000
+replica 3 3
+sleep 1000
+replica 0 4
+sleep 1000
+replica 1 5
+sleep 1000
+replica 2 6
+sleep 1000
+replica 3 7
+sleep 1000
+topology 0 1 2 3 4 5 6 7
+sleep 1000
+protocol alea 1 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 50 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 100 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 200 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 750 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 1000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 2500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 5000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 7500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 10000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 12500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 15000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 17500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol alea 20000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 50 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 100 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 200 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 750 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 1000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 2500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 5000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 7500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 10000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 12500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 15000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 17500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol hb 20000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 50 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 100 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 200 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 750 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 2500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 5000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 7500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 10000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 12500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 15000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 17500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo 20000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 50 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 100 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 200 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 750 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 1000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 2500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 5000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 7500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 10000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 12500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 15000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 17500 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 1
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 50
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 100
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 200
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 750
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 1000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 2500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 5000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 7500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 10000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 12500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 15000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 17500
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+protocol dumbo2 20000 throughput free 20000
+sleep 1000
+start
+sleep 15000
+stop
+sleep 1000
+sleep 1000
+shutdown 500
