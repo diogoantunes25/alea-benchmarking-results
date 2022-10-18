@@ -1,0 +1,3959 @@
+{
+  "protocol": "dumbo2",
+  "n": 11,
+  "batch-size": 20000,
+  "payload-size": 250,
+  "fault": "free",
+  "load": 1000,
+  "results": [
+    {
+      "replica": 0,
+      "start": 1666065083156,
+      "finish": 1666065383175,
+      "sent-messages": 26760,
+      "recv-messages": 25463,
+      "total-tx": 291880,
+      "dropped-tx": 140950,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088175,
+          "tx-committed": 1,
+          "avg-latency": 144.0
+        },
+        {
+          "start": 1666065088175,
+          "finish": 1666065093238,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065093238,
+          "finish": 1666065098311,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065098311,
+          "finish": 1666065103379,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065103379,
+          "finish": 1666065108434,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065108434,
+          "finish": 1666065113495,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113495,
+          "finish": 1666065118555,
+          "tx-committed": 1819,
+          "avg-latency": 17859.027
+        },
+        {
+          "start": 1666065118555,
+          "finish": 1666065123636,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065123636,
+          "finish": 1666065128711,
+          "tx-committed": 1819,
+          "avg-latency": 24090.428
+        },
+        {
+          "start": 1666065128711,
+          "finish": 1666065133791,
+          "tx-committed": 1819,
+          "avg-latency": 26266.912
+        },
+        {
+          "start": 1666065133791,
+          "finish": 1666065138888,
+          "tx-committed": 1819,
+          "avg-latency": 28931.27
+        },
+        {
+          "start": 1666065138888,
+          "finish": 1666065143962,
+          "tx-committed": 1819,
+          "avg-latency": 30217.31
+        },
+        {
+          "start": 1666065143962,
+          "finish": 1666065149033,
+          "tx-committed": 1819,
+          "avg-latency": 34312.66
+        },
+        {
+          "start": 1666065149033,
+          "finish": 1666065154099,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154099,
+          "finish": 1666065159194,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065159194,
+          "finish": 1666065164294,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065164294,
+          "finish": 1666065169384,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065169384,
+          "finish": 1666065174480,
+          "tx-committed": 1819,
+          "avg-latency": 42738.176
+        },
+        {
+          "start": 1666065174480,
+          "finish": 1666065179569,
+          "tx-committed": 1819,
+          "avg-latency": 44877.004
+        },
+        {
+          "start": 1666065179569,
+          "finish": 1666065184704,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065184704,
+          "finish": 1666065189788,
+          "tx-committed": 1819,
+          "avg-latency": 49987.14
+        },
+        {
+          "start": 1666065189788,
+          "finish": 1666065194872,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194872,
+          "finish": 1666065199962,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065199962,
+          "finish": 1666065205065,
+          "tx-committed": 1819,
+          "avg-latency": 51589.445
+        },
+        {
+          "start": 1666065205065,
+          "finish": 1666065210166,
+          "tx-committed": 1819,
+          "avg-latency": 55519.36
+        },
+        {
+          "start": 1666065210166,
+          "finish": 1666065215263,
+          "tx-committed": 1819,
+          "avg-latency": 61919.27
+        },
+        {
+          "start": 1666065215263,
+          "finish": 1666065220380,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065220380,
+          "finish": 1666065225464,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065225464,
+          "finish": 1666065230553,
+          "tx-committed": 1819,
+          "avg-latency": 77727.51
+        },
+        {
+          "start": 1666065230553,
+          "finish": 1666065235635,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235635,
+          "finish": 1666065240722,
+          "tx-committed": 1819,
+          "avg-latency": 85184.39
+        },
+        {
+          "start": 1666065240722,
+          "finish": 1666065245814,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065245814,
+          "finish": 1666065250918,
+          "tx-committed": 1819,
+          "avg-latency": 91544.77
+        },
+        {
+          "start": 1666065250918,
+          "finish": 1666065256018,
+          "tx-committed": 1819,
+          "avg-latency": 97202.03
+        },
+        {
+          "start": 1666065256018,
+          "finish": 1666065261115,
+          "tx-committed": 1819,
+          "avg-latency": 99771.71
+        },
+        {
+          "start": 1666065261115,
+          "finish": 1666065266203,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065266203,
+          "finish": 1666065271285,
+          "tx-committed": 1819,
+          "avg-latency": 106962.92
+        },
+        {
+          "start": 1666065271285,
+          "finish": 1666065276362,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276362,
+          "finish": 1666065281463,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065281463,
+          "finish": 1666065286554,
+          "tx-committed": 1819,
+          "avg-latency": 115832.75
+        },
+        {
+          "start": 1666065286554,
+          "finish": 1666065291665,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065291665,
+          "finish": 1666065296774,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065296774,
+          "finish": 1666065301862,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065301862,
+          "finish": 1666065306963,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065306963,
+          "finish": 1666065312059,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065312059,
+          "finish": 1666065317145,
+          "tx-committed": 1819,
+          "avg-latency": 146834.84
+        },
+        {
+          "start": 1666065317145,
+          "finish": 1666065322219,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322219,
+          "finish": 1666065327299,
+          "tx-committed": 1819,
+          "avg-latency": 152598.67
+        },
+        {
+          "start": 1666065327299,
+          "finish": 1666065332413,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065332413,
+          "finish": 1666065337510,
+          "tx-committed": 1819,
+          "avg-latency": 155279.5
+        },
+        {
+          "start": 1666065337510,
+          "finish": 1666065342618,
+          "tx-committed": 1819,
+          "avg-latency": 163375.9
+        },
+        {
+          "start": 1666065342618,
+          "finish": 1666065347710,
+          "tx-committed": 1819,
+          "avg-latency": 164962.66
+        },
+        {
+          "start": 1666065347710,
+          "finish": 1666065352793,
+          "tx-committed": 1819,
+          "avg-latency": 165607.33
+        },
+        {
+          "start": 1666065352793,
+          "finish": 1666065357878,
+          "tx-committed": 1819,
+          "avg-latency": 165454.53
+        },
+        {
+          "start": 1666065357878,
+          "finish": 1666065362965,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362965,
+          "finish": 1666065368063,
+          "tx-committed": 1819,
+          "avg-latency": 168339.55
+        },
+        {
+          "start": 1666065368063,
+          "finish": 1666065373166,
+          "tx-committed": 1819,
+          "avg-latency": 163669.52
+        },
+        {
+          "start": 1666065373166,
+          "finish": 1666065378258,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        }
+      ]
+    },
+    {
+      "replica": 1,
+      "start": 1666065083159,
+      "finish": 1666065383178,
+      "sent-messages": 25744,
+      "recv-messages": 25543,
+      "total-tx": 292820,
+      "dropped-tx": 152810,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088178,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065088178,
+          "finish": 1666065093242,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065093242,
+          "finish": 1666065098315,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065098315,
+          "finish": 1666065103382,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065103382,
+          "finish": 1666065108437,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065108437,
+          "finish": 1666065113498,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113498,
+          "finish": 1666065118559,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065118559,
+          "finish": 1666065123639,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065123639,
+          "finish": 1666065128715,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065128715,
+          "finish": 1666065133794,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065133794,
+          "finish": 1666065138891,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065138891,
+          "finish": 1666065143965,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065143965,
+          "finish": 1666065149037,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065149037,
+          "finish": 1666065154102,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154102,
+          "finish": 1666065159198,
+          "tx-committed": 1819,
+          "avg-latency": 37892.773
+        },
+        {
+          "start": 1666065159198,
+          "finish": 1666065164297,
+          "tx-committed": 1819,
+          "avg-latency": 40290.8
+        },
+        {
+          "start": 1666065164297,
+          "finish": 1666065169388,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065169388,
+          "finish": 1666065174484,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065174484,
+          "finish": 1666065179572,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065179572,
+          "finish": 1666065184708,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065184708,
+          "finish": 1666065189792,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065189792,
+          "finish": 1666065194875,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194875,
+          "finish": 1666065199966,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065199966,
+          "finish": 1666065205068,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065205068,
+          "finish": 1666065210170,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065210170,
+          "finish": 1666065215267,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065215267,
+          "finish": 1666065220384,
+          "tx-committed": 1819,
+          "avg-latency": 80639.43
+        },
+        {
+          "start": 1666065220384,
+          "finish": 1666065225468,
+          "tx-committed": 1819,
+          "avg-latency": 85631.59
+        },
+        {
+          "start": 1666065225468,
+          "finish": 1666065230556,
+          "tx-committed": 1819,
+          "avg-latency": 90797.15
+        },
+        {
+          "start": 1666065230556,
+          "finish": 1666065235639,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235639,
+          "finish": 1666065240724,
+          "tx-committed": 1819,
+          "avg-latency": 95742.68
+        },
+        {
+          "start": 1666065240724,
+          "finish": 1666065245818,
+          "tx-committed": 1819,
+          "avg-latency": 97774.34
+        },
+        {
+          "start": 1666065245818,
+          "finish": 1666065250920,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065250920,
+          "finish": 1666065256022,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065256022,
+          "finish": 1666065261118,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065261118,
+          "finish": 1666065266207,
+          "tx-committed": 1819,
+          "avg-latency": 118557.89
+        },
+        {
+          "start": 1666065266207,
+          "finish": 1666065271288,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065271288,
+          "finish": 1666065276366,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276366,
+          "finish": 1666065281466,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065281466,
+          "finish": 1666065286557,
+          "tx-committed": 1819,
+          "avg-latency": 132341.56
+        },
+        {
+          "start": 1666065286557,
+          "finish": 1666065291669,
+          "tx-committed": 1819,
+          "avg-latency": 138639.45
+        },
+        {
+          "start": 1666065291669,
+          "finish": 1666065296783,
+          "tx-committed": 1819,
+          "avg-latency": 140673.31
+        },
+        {
+          "start": 1666065296783,
+          "finish": 1666065301865,
+          "tx-committed": 1819,
+          "avg-latency": 141335.77
+        },
+        {
+          "start": 1666065301865,
+          "finish": 1666065306967,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065306967,
+          "finish": 1666065312063,
+          "tx-committed": 1819,
+          "avg-latency": 143822.36
+        },
+        {
+          "start": 1666065312063,
+          "finish": 1666065317148,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065317148,
+          "finish": 1666065322222,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322222,
+          "finish": 1666065327302,
+          "tx-committed": 1819,
+          "avg-latency": 155267.36
+        },
+        {
+          "start": 1666065327302,
+          "finish": 1666065332417,
+          "tx-committed": 1819,
+          "avg-latency": 160120.33
+        },
+        {
+          "start": 1666065332417,
+          "finish": 1666065337514,
+          "tx-committed": 1819,
+          "avg-latency": 162952.81
+        },
+        {
+          "start": 1666065337514,
+          "finish": 1666065342621,
+          "tx-committed": 1819,
+          "avg-latency": 160804.56
+        },
+        {
+          "start": 1666065342621,
+          "finish": 1666065347714,
+          "tx-committed": 1819,
+          "avg-latency": 163450.22
+        },
+        {
+          "start": 1666065347714,
+          "finish": 1666065352796,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065352796,
+          "finish": 1666065357882,
+          "tx-committed": 1819,
+          "avg-latency": 165202.98
+        },
+        {
+          "start": 1666065357882,
+          "finish": 1666065362969,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362969,
+          "finish": 1666065368066,
+          "tx-committed": 1819,
+          "avg-latency": 170144.42
+        },
+        {
+          "start": 1666065368066,
+          "finish": 1666065373169,
+          "tx-committed": 1819,
+          "avg-latency": 168486.61
+        },
+        {
+          "start": 1666065373169,
+          "finish": 1666065378261,
+          "tx-committed": 1819,
+          "avg-latency": 172868.42
+        }
+      ]
+    },
+    {
+      "replica": 2,
+      "start": 1666065083161,
+      "finish": 1666065383180,
+      "sent-messages": 26730,
+      "recv-messages": 25556,
+      "total-tx": 292630,
+      "dropped-tx": 139690,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088180,
+          "tx-committed": 590,
+          "avg-latency": 1826.0221
+        },
+        {
+          "start": 1666065088180,
+          "finish": 1666065093244,
+          "tx-committed": 1420,
+          "avg-latency": 5985.9287
+        },
+        {
+          "start": 1666065093244,
+          "finish": 1666065098317,
+          "tx-committed": 1819,
+          "avg-latency": 8520.872
+        },
+        {
+          "start": 1666065098317,
+          "finish": 1666065103384,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065103384,
+          "finish": 1666065108439,
+          "tx-committed": 1819,
+          "avg-latency": 13700.737
+        },
+        {
+          "start": 1666065108439,
+          "finish": 1666065113500,
+          "tx-committed": 1236,
+          "avg-latency": 15637.094
+        },
+        {
+          "start": 1666065113500,
+          "finish": 1666065118561,
+          "tx-committed": 583,
+          "avg-latency": 15951.875
+        },
+        {
+          "start": 1666065118561,
+          "finish": 1666065123641,
+          "tx-committed": 1819,
+          "avg-latency": 18751.398
+        },
+        {
+          "start": 1666065123641,
+          "finish": 1666065128717,
+          "tx-committed": 1819,
+          "avg-latency": 20905.184
+        },
+        {
+          "start": 1666065128717,
+          "finish": 1666065133796,
+          "tx-committed": 1819,
+          "avg-latency": 22769.531
+        },
+        {
+          "start": 1666065133796,
+          "finish": 1666065138893,
+          "tx-committed": 1819,
+          "avg-latency": 25964.965
+        },
+        {
+          "start": 1666065138893,
+          "finish": 1666065143967,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065143967,
+          "finish": 1666065149039,
+          "tx-committed": 1819,
+          "avg-latency": 29819.797
+        },
+        {
+          "start": 1666065149039,
+          "finish": 1666065154104,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154104,
+          "finish": 1666065159200,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065159200,
+          "finish": 1666065164299,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065164299,
+          "finish": 1666065169389,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065169389,
+          "finish": 1666065174486,
+          "tx-committed": 1819,
+          "avg-latency": 40466.895
+        },
+        {
+          "start": 1666065174486,
+          "finish": 1666065179573,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065179573,
+          "finish": 1666065184710,
+          "tx-committed": 1819,
+          "avg-latency": 45747.07
+        },
+        {
+          "start": 1666065184710,
+          "finish": 1666065189793,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065189793,
+          "finish": 1666065194877,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194877,
+          "finish": 1666065199967,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065199967,
+          "finish": 1666065205070,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065205070,
+          "finish": 1666065210171,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065210171,
+          "finish": 1666065215268,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065215268,
+          "finish": 1666065220385,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065220385,
+          "finish": 1666065225470,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065225470,
+          "finish": 1666065230559,
+          "tx-committed": 1819,
+          "avg-latency": 76142.96
+        },
+        {
+          "start": 1666065230559,
+          "finish": 1666065235640,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235640,
+          "finish": 1666065240726,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065240726,
+          "finish": 1666065245819,
+          "tx-committed": 1819,
+          "avg-latency": 85549.74
+        },
+        {
+          "start": 1666065245819,
+          "finish": 1666065250922,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065250922,
+          "finish": 1666065256023,
+          "tx-committed": 1819,
+          "avg-latency": 97548.45
+        },
+        {
+          "start": 1666065256023,
+          "finish": 1666065261120,
+          "tx-committed": 1819,
+          "avg-latency": 103277.82
+        },
+        {
+          "start": 1666065261120,
+          "finish": 1666065266209,
+          "tx-committed": 1819,
+          "avg-latency": 106628.64
+        },
+        {
+          "start": 1666065266209,
+          "finish": 1666065271290,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065271290,
+          "finish": 1666065276367,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276367,
+          "finish": 1666065281468,
+          "tx-committed": 1819,
+          "avg-latency": 113470.086
+        },
+        {
+          "start": 1666065281468,
+          "finish": 1666065286559,
+          "tx-committed": 1819,
+          "avg-latency": 119451.29
+        },
+        {
+          "start": 1666065286559,
+          "finish": 1666065291671,
+          "tx-committed": 1819,
+          "avg-latency": 120092.43
+        },
+        {
+          "start": 1666065291671,
+          "finish": 1666065296779,
+          "tx-committed": 1819,
+          "avg-latency": 124055.125
+        },
+        {
+          "start": 1666065296779,
+          "finish": 1666065301867,
+          "tx-committed": 1819,
+          "avg-latency": 128060.14
+        },
+        {
+          "start": 1666065301867,
+          "finish": 1666065306968,
+          "tx-committed": 1819,
+          "avg-latency": 128623.46
+        },
+        {
+          "start": 1666065306968,
+          "finish": 1666065312065,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065312065,
+          "finish": 1666065317149,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065317149,
+          "finish": 1666065322224,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322224,
+          "finish": 1666065327305,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065327305,
+          "finish": 1666065332419,
+          "tx-committed": 1819,
+          "avg-latency": 142803.69
+        },
+        {
+          "start": 1666065332419,
+          "finish": 1666065337515,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065337515,
+          "finish": 1666065342623,
+          "tx-committed": 1819,
+          "avg-latency": 151249.14
+        },
+        {
+          "start": 1666065342623,
+          "finish": 1666065347716,
+          "tx-committed": 1819,
+          "avg-latency": 158569.9
+        },
+        {
+          "start": 1666065347716,
+          "finish": 1666065352798,
+          "tx-committed": 1819,
+          "avg-latency": 159958.19
+        },
+        {
+          "start": 1666065352798,
+          "finish": 1666065357883,
+          "tx-committed": 1819,
+          "avg-latency": 161038.1
+        },
+        {
+          "start": 1666065357883,
+          "finish": 1666065362971,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362971,
+          "finish": 1666065368069,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065368069,
+          "finish": 1666065373170,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065373170,
+          "finish": 1666065378263,
+          "tx-committed": 1819,
+          "avg-latency": 168513.17
+        }
+      ]
+    },
+    {
+      "replica": 3,
+      "start": 1666065083156,
+      "finish": 1666065383176,
+      "sent-messages": 22950,
+      "recv-messages": 25647,
+      "total-tx": 291870,
+      "dropped-tx": 153090,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088176,
+          "tx-committed": 590,
+          "avg-latency": 1589.5339
+        },
+        {
+          "start": 1666065088176,
+          "finish": 1666065093239,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065093239,
+          "finish": 1666065098312,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065098312,
+          "finish": 1666065103379,
+          "tx-committed": 1819,
+          "avg-latency": 12354.305
+        },
+        {
+          "start": 1666065103379,
+          "finish": 1666065108434,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065108434,
+          "finish": 1666065113496,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113496,
+          "finish": 1666065118556,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065118556,
+          "finish": 1666065123636,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065123636,
+          "finish": 1666065128712,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065128712,
+          "finish": 1666065133791,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065133791,
+          "finish": 1666065138889,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065138889,
+          "finish": 1666065143962,
+          "tx-committed": 1819,
+          "avg-latency": 31749.717
+        },
+        {
+          "start": 1666065143962,
+          "finish": 1666065149034,
+          "tx-committed": 1819,
+          "avg-latency": 34909.74
+        },
+        {
+          "start": 1666065149034,
+          "finish": 1666065154099,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154099,
+          "finish": 1666065159195,
+          "tx-committed": 1819,
+          "avg-latency": 36641.414
+        },
+        {
+          "start": 1666065159195,
+          "finish": 1666065164295,
+          "tx-committed": 1819,
+          "avg-latency": 39556.17
+        },
+        {
+          "start": 1666065164295,
+          "finish": 1666065169385,
+          "tx-committed": 1819,
+          "avg-latency": 41551.777
+        },
+        {
+          "start": 1666065169385,
+          "finish": 1666065174481,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065174481,
+          "finish": 1666065179568,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065179568,
+          "finish": 1666065184705,
+          "tx-committed": 1819,
+          "avg-latency": 46968.45
+        },
+        {
+          "start": 1666065184705,
+          "finish": 1666065189789,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065189789,
+          "finish": 1666065194872,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194872,
+          "finish": 1666065199963,
+          "tx-committed": 1819,
+          "avg-latency": 51893.99
+        },
+        {
+          "start": 1666065199963,
+          "finish": 1666065205065,
+          "tx-committed": 1819,
+          "avg-latency": 53337.562
+        },
+        {
+          "start": 1666065205065,
+          "finish": 1666065210167,
+          "tx-committed": 1819,
+          "avg-latency": 58791.9
+        },
+        {
+          "start": 1666065210167,
+          "finish": 1666065215269,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065215269,
+          "finish": 1666065220381,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065220381,
+          "finish": 1666065225465,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065225465,
+          "finish": 1666065230554,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065230554,
+          "finish": 1666065235635,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235635,
+          "finish": 1666065240722,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065240722,
+          "finish": 1666065245815,
+          "tx-committed": 1819,
+          "avg-latency": 89464.016
+        },
+        {
+          "start": 1666065245815,
+          "finish": 1666065250918,
+          "tx-committed": 1819,
+          "avg-latency": 97664.75
+        },
+        {
+          "start": 1666065250918,
+          "finish": 1666065256018,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065256018,
+          "finish": 1666065261115,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065261115,
+          "finish": 1666065266204,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065266204,
+          "finish": 1666065271287,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065271287,
+          "finish": 1666065276363,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276363,
+          "finish": 1666065281463,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065281463,
+          "finish": 1666065286554,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065286554,
+          "finish": 1666065291667,
+          "tx-committed": 1819,
+          "avg-latency": 132609.34
+        },
+        {
+          "start": 1666065291667,
+          "finish": 1666065296774,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065296774,
+          "finish": 1666065301862,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065301862,
+          "finish": 1666065306964,
+          "tx-committed": 1819,
+          "avg-latency": 146076.2
+        },
+        {
+          "start": 1666065306964,
+          "finish": 1666065312060,
+          "tx-committed": 1819,
+          "avg-latency": 153220.67
+        },
+        {
+          "start": 1666065312060,
+          "finish": 1666065317145,
+          "tx-committed": 1819,
+          "avg-latency": 155870.73
+        },
+        {
+          "start": 1666065317145,
+          "finish": 1666065322219,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322219,
+          "finish": 1666065327300,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065327300,
+          "finish": 1666065332414,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065332414,
+          "finish": 1666065337511,
+          "tx-committed": 1819,
+          "avg-latency": 162422.31
+        },
+        {
+          "start": 1666065337511,
+          "finish": 1666065342618,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065342618,
+          "finish": 1666065347711,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065347711,
+          "finish": 1666065352793,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065352793,
+          "finish": 1666065357879,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065357879,
+          "finish": 1666065362966,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362966,
+          "finish": 1666065368063,
+          "tx-committed": 1819,
+          "avg-latency": 189826.75
+        },
+        {
+          "start": 1666065368063,
+          "finish": 1666065373166,
+          "tx-committed": 1819,
+          "avg-latency": 197144.08
+        },
+        {
+          "start": 1666065373166,
+          "finish": 1666065378258,
+          "tx-committed": 1819,
+          "avg-latency": 197278.36
+        }
+      ]
+    },
+    {
+      "replica": 4,
+      "start": 1666065083160,
+      "finish": 1666065383181,
+      "sent-messages": 26600,
+      "recv-messages": 25499,
+      "total-tx": 289420,
+      "dropped-tx": 136670,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088179,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065088179,
+          "finish": 1666065093243,
+          "tx-committed": 1819,
+          "avg-latency": 6299.2095
+        },
+        {
+          "start": 1666065093243,
+          "finish": 1666065098316,
+          "tx-committed": 1819,
+          "avg-latency": 8675.357
+        },
+        {
+          "start": 1666065098316,
+          "finish": 1666065103383,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065103383,
+          "finish": 1666065108438,
+          "tx-committed": 1819,
+          "avg-latency": 13880.506
+        },
+        {
+          "start": 1666065108438,
+          "finish": 1666065113499,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113499,
+          "finish": 1666065118560,
+          "tx-committed": 1819,
+          "avg-latency": 16075.207
+        },
+        {
+          "start": 1666065118560,
+          "finish": 1666065123640,
+          "tx-committed": 1819,
+          "avg-latency": 18339.387
+        },
+        {
+          "start": 1666065123640,
+          "finish": 1666065128716,
+          "tx-committed": 1819,
+          "avg-latency": 21047.932
+        },
+        {
+          "start": 1666065128716,
+          "finish": 1666065133795,
+          "tx-committed": 1819,
+          "avg-latency": 23405.2
+        },
+        {
+          "start": 1666065133795,
+          "finish": 1666065138892,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065138892,
+          "finish": 1666065143967,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065143967,
+          "finish": 1666065149038,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065149038,
+          "finish": 1666065154103,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154103,
+          "finish": 1666065159199,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065159199,
+          "finish": 1666065164298,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065164298,
+          "finish": 1666065169389,
+          "tx-committed": 1819,
+          "avg-latency": 38931.38
+        },
+        {
+          "start": 1666065169389,
+          "finish": 1666065174485,
+          "tx-committed": 1819,
+          "avg-latency": 41705.54
+        },
+        {
+          "start": 1666065174485,
+          "finish": 1666065179640,
+          "tx-committed": 1819,
+          "avg-latency": 43629.15
+        },
+        {
+          "start": 1666065179640,
+          "finish": 1666065184709,
+          "tx-committed": 1819,
+          "avg-latency": 45464.24
+        },
+        {
+          "start": 1666065184709,
+          "finish": 1666065189793,
+          "tx-committed": 1819,
+          "avg-latency": 48283.32
+        },
+        {
+          "start": 1666065189793,
+          "finish": 1666065194877,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194877,
+          "finish": 1666065199967,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065199967,
+          "finish": 1666065205070,
+          "tx-committed": 1819,
+          "avg-latency": 49049.676
+        },
+        {
+          "start": 1666065205070,
+          "finish": 1666065210171,
+          "tx-committed": 1819,
+          "avg-latency": 52497.812
+        },
+        {
+          "start": 1666065210171,
+          "finish": 1666065215268,
+          "tx-committed": 1819,
+          "avg-latency": 56589.645
+        },
+        {
+          "start": 1666065215268,
+          "finish": 1666065220385,
+          "tx-committed": 1819,
+          "avg-latency": 61368.707
+        },
+        {
+          "start": 1666065220385,
+          "finish": 1666065225471,
+          "tx-committed": 1819,
+          "avg-latency": 63868.65
+        },
+        {
+          "start": 1666065225471,
+          "finish": 1666065230558,
+          "tx-committed": 1819,
+          "avg-latency": 68821.15
+        },
+        {
+          "start": 1666065230558,
+          "finish": 1666065235640,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235640,
+          "finish": 1666065240726,
+          "tx-committed": 1819,
+          "avg-latency": 74503.1
+        },
+        {
+          "start": 1666065240726,
+          "finish": 1666065245819,
+          "tx-committed": 1819,
+          "avg-latency": 78612.52
+        },
+        {
+          "start": 1666065245819,
+          "finish": 1666065250922,
+          "tx-committed": 1819,
+          "avg-latency": 84258.305
+        },
+        {
+          "start": 1666065250922,
+          "finish": 1666065256023,
+          "tx-committed": 1819,
+          "avg-latency": 86946.74
+        },
+        {
+          "start": 1666065256023,
+          "finish": 1666065261120,
+          "tx-committed": 1819,
+          "avg-latency": 91396.414
+        },
+        {
+          "start": 1666065261120,
+          "finish": 1666065266208,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065266208,
+          "finish": 1666065271290,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065271290,
+          "finish": 1666065276368,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276368,
+          "finish": 1666065281468,
+          "tx-committed": 1819,
+          "avg-latency": 102844.08
+        },
+        {
+          "start": 1666065281468,
+          "finish": 1666065286559,
+          "tx-committed": 1819,
+          "avg-latency": 108274.17
+        },
+        {
+          "start": 1666065286559,
+          "finish": 1666065291670,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065291670,
+          "finish": 1666065296780,
+          "tx-committed": 1819,
+          "avg-latency": 114076.83
+        },
+        {
+          "start": 1666065296780,
+          "finish": 1666065301867,
+          "tx-committed": 1819,
+          "avg-latency": 118848.305
+        },
+        {
+          "start": 1666065301867,
+          "finish": 1666065306969,
+          "tx-committed": 1819,
+          "avg-latency": 124046.414
+        },
+        {
+          "start": 1666065306969,
+          "finish": 1666065312065,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065312065,
+          "finish": 1666065317149,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065317149,
+          "finish": 1666065322224,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322224,
+          "finish": 1666065327304,
+          "tx-committed": 1819,
+          "avg-latency": 134148.2
+        },
+        {
+          "start": 1666065327304,
+          "finish": 1666065332419,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065332419,
+          "finish": 1666065337516,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065337516,
+          "finish": 1666065342623,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065342623,
+          "finish": 1666065347717,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065347717,
+          "finish": 1666065352798,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065352798,
+          "finish": 1666065357884,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065357884,
+          "finish": 1666065362971,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362971,
+          "finish": 1666065368068,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065368068,
+          "finish": 1666065373171,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065373171,
+          "finish": 1666065378263,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        }
+      ]
+    },
+    {
+      "replica": 5,
+      "start": 1666065083156,
+      "finish": 1666065383175,
+      "sent-messages": 26030,
+      "recv-messages": 25511,
+      "total-tx": 292440,
+      "dropped-tx": 126750,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088175,
+          "tx-committed": 590,
+          "avg-latency": 1471.7695
+        },
+        {
+          "start": 1666065088175,
+          "finish": 1666065093238,
+          "tx-committed": 1440,
+          "avg-latency": 6000.1562
+        },
+        {
+          "start": 1666065093238,
+          "finish": 1666065098311,
+          "tx-committed": 1819,
+          "avg-latency": 8527.4795
+        },
+        {
+          "start": 1666065098311,
+          "finish": 1666065103379,
+          "tx-committed": 1819,
+          "avg-latency": 10790.496
+        },
+        {
+          "start": 1666065103379,
+          "finish": 1666065108434,
+          "tx-committed": 1819,
+          "avg-latency": 13226.578
+        },
+        {
+          "start": 1666065108434,
+          "finish": 1666065113495,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113495,
+          "finish": 1666065118555,
+          "tx-committed": 1819,
+          "avg-latency": 15214.755
+        },
+        {
+          "start": 1666065118555,
+          "finish": 1666065123636,
+          "tx-committed": 1819,
+          "avg-latency": 17792.205
+        },
+        {
+          "start": 1666065123636,
+          "finish": 1666065128712,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065128712,
+          "finish": 1666065133791,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065133791,
+          "finish": 1666065138888,
+          "tx-committed": 1819,
+          "avg-latency": 25363.857
+        },
+        {
+          "start": 1666065138888,
+          "finish": 1666065143962,
+          "tx-committed": 1819,
+          "avg-latency": 27061.447
+        },
+        {
+          "start": 1666065143962,
+          "finish": 1666065149033,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065149033,
+          "finish": 1666065154099,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154099,
+          "finish": 1666065159194,
+          "tx-committed": 1819,
+          "avg-latency": 32348.482
+        },
+        {
+          "start": 1666065159194,
+          "finish": 1666065164294,
+          "tx-committed": 1819,
+          "avg-latency": 35741.402
+        },
+        {
+          "start": 1666065164294,
+          "finish": 1666065169384,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065169384,
+          "finish": 1666065174481,
+          "tx-committed": 1819,
+          "avg-latency": 40650.21
+        },
+        {
+          "start": 1666065174481,
+          "finish": 1666065179567,
+          "tx-committed": 1819,
+          "avg-latency": 42072.965
+        },
+        {
+          "start": 1666065179567,
+          "finish": 1666065184704,
+          "tx-committed": 1819,
+          "avg-latency": 44145.707
+        },
+        {
+          "start": 1666065184704,
+          "finish": 1666065189788,
+          "tx-committed": 1819,
+          "avg-latency": 44770.266
+        },
+        {
+          "start": 1666065189788,
+          "finish": 1666065194872,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194872,
+          "finish": 1666065199962,
+          "tx-committed": 1819,
+          "avg-latency": 47197.824
+        },
+        {
+          "start": 1666065199962,
+          "finish": 1666065205065,
+          "tx-committed": 1819,
+          "avg-latency": 48718.047
+        },
+        {
+          "start": 1666065205065,
+          "finish": 1666065210166,
+          "tx-committed": 1819,
+          "avg-latency": 51423.098
+        },
+        {
+          "start": 1666065210166,
+          "finish": 1666065215264,
+          "tx-committed": 1819,
+          "avg-latency": 51430.12
+        },
+        {
+          "start": 1666065215264,
+          "finish": 1666065220380,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065220380,
+          "finish": 1666065225465,
+          "tx-committed": 1819,
+          "avg-latency": 60298.207
+        },
+        {
+          "start": 1666065225465,
+          "finish": 1666065230553,
+          "tx-committed": 1819,
+          "avg-latency": 66310.02
+        },
+        {
+          "start": 1666065230553,
+          "finish": 1666065235635,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235635,
+          "finish": 1666065240721,
+          "tx-committed": 1819,
+          "avg-latency": 71048.414
+        },
+        {
+          "start": 1666065240721,
+          "finish": 1666065245814,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065245814,
+          "finish": 1666065250917,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065250917,
+          "finish": 1666065256018,
+          "tx-committed": 1819,
+          "avg-latency": 84461.516
+        },
+        {
+          "start": 1666065256018,
+          "finish": 1666065261114,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065261114,
+          "finish": 1666065266203,
+          "tx-committed": 1819,
+          "avg-latency": 94365.08
+        },
+        {
+          "start": 1666065266203,
+          "finish": 1666065271285,
+          "tx-committed": 1819,
+          "avg-latency": 100615.64
+        },
+        {
+          "start": 1666065271285,
+          "finish": 1666065276362,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276362,
+          "finish": 1666065281463,
+          "tx-committed": 1819,
+          "avg-latency": 105819.12
+        },
+        {
+          "start": 1666065281463,
+          "finish": 1666065286554,
+          "tx-committed": 1819,
+          "avg-latency": 107157.336
+        },
+        {
+          "start": 1666065286554,
+          "finish": 1666065291665,
+          "tx-committed": 1819,
+          "avg-latency": 109455.05
+        },
+        {
+          "start": 1666065291665,
+          "finish": 1666065296774,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065296774,
+          "finish": 1666065301863,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065301863,
+          "finish": 1666065306963,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065306963,
+          "finish": 1666065312059,
+          "tx-committed": 1819,
+          "avg-latency": 128635.29
+        },
+        {
+          "start": 1666065312059,
+          "finish": 1666065317144,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065317144,
+          "finish": 1666065322219,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322219,
+          "finish": 1666065327299,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065327299,
+          "finish": 1666065332413,
+          "tx-committed": 1819,
+          "avg-latency": 140950.7
+        },
+        {
+          "start": 1666065332413,
+          "finish": 1666065337510,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065337510,
+          "finish": 1666065342618,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065342618,
+          "finish": 1666065347711,
+          "tx-committed": 1819,
+          "avg-latency": 152516.25
+        },
+        {
+          "start": 1666065347711,
+          "finish": 1666065352793,
+          "tx-committed": 1819,
+          "avg-latency": 162985.42
+        },
+        {
+          "start": 1666065352793,
+          "finish": 1666065357878,
+          "tx-committed": 1819,
+          "avg-latency": 159416.4
+        },
+        {
+          "start": 1666065357878,
+          "finish": 1666065362965,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362965,
+          "finish": 1666065368062,
+          "tx-committed": 1819,
+          "avg-latency": 163087.56
+        },
+        {
+          "start": 1666065368062,
+          "finish": 1666065373165,
+          "tx-committed": 1819,
+          "avg-latency": 162794.22
+        },
+        {
+          "start": 1666065373165,
+          "finish": 1666065378258,
+          "tx-committed": 1819,
+          "avg-latency": 167845.31
+        }
+      ]
+    },
+    {
+      "replica": 6,
+      "start": 1666065083159,
+      "finish": 1666065383179,
+      "sent-messages": 25455,
+      "recv-messages": 25559,
+      "total-tx": 292550,
+      "dropped-tx": 122840,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088178,
+          "tx-committed": 590,
+          "avg-latency": 1509.4355
+        },
+        {
+          "start": 1666065088178,
+          "finish": 1666065093242,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065093242,
+          "finish": 1666065098315,
+          "tx-committed": 1819,
+          "avg-latency": 9351.303
+        },
+        {
+          "start": 1666065098315,
+          "finish": 1666065103382,
+          "tx-committed": 1819,
+          "avg-latency": 11687.352
+        },
+        {
+          "start": 1666065103382,
+          "finish": 1666065108437,
+          "tx-committed": 1819,
+          "avg-latency": 14209.434
+        },
+        {
+          "start": 1666065108437,
+          "finish": 1666065113499,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113499,
+          "finish": 1666065118559,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065118559,
+          "finish": 1666065123640,
+          "tx-committed": 1819,
+          "avg-latency": 18902.016
+        },
+        {
+          "start": 1666065123640,
+          "finish": 1666065128715,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065128715,
+          "finish": 1666065133794,
+          "tx-committed": 1819,
+          "avg-latency": 24245.46
+        },
+        {
+          "start": 1666065133794,
+          "finish": 1666065138892,
+          "tx-committed": 1819,
+          "avg-latency": 26690.535
+        },
+        {
+          "start": 1666065138892,
+          "finish": 1666065143965,
+          "tx-committed": 1819,
+          "avg-latency": 29294.236
+        },
+        {
+          "start": 1666065143965,
+          "finish": 1666065149037,
+          "tx-committed": 1819,
+          "avg-latency": 31220.885
+        },
+        {
+          "start": 1666065149037,
+          "finish": 1666065154103,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154103,
+          "finish": 1666065159198,
+          "tx-committed": 1819,
+          "avg-latency": 33512.316
+        },
+        {
+          "start": 1666065159198,
+          "finish": 1666065164297,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065164297,
+          "finish": 1666065169387,
+          "tx-committed": 1819,
+          "avg-latency": 39256.484
+        },
+        {
+          "start": 1666065169387,
+          "finish": 1666065174484,
+          "tx-committed": 1819,
+          "avg-latency": 40315.562
+        },
+        {
+          "start": 1666065174484,
+          "finish": 1666065179571,
+          "tx-committed": 1819,
+          "avg-latency": 42989.332
+        },
+        {
+          "start": 1666065179571,
+          "finish": 1666065184708,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065184708,
+          "finish": 1666065189791,
+          "tx-committed": 1819,
+          "avg-latency": 46145.145
+        },
+        {
+          "start": 1666065189791,
+          "finish": 1666065194875,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194875,
+          "finish": 1666065199966,
+          "tx-committed": 1819,
+          "avg-latency": 47150.246
+        },
+        {
+          "start": 1666065199966,
+          "finish": 1666065205068,
+          "tx-committed": 1819,
+          "avg-latency": 48280.336
+        },
+        {
+          "start": 1666065205068,
+          "finish": 1666065210169,
+          "tx-committed": 1819,
+          "avg-latency": 51582.32
+        },
+        {
+          "start": 1666065210169,
+          "finish": 1666065215267,
+          "tx-committed": 1819,
+          "avg-latency": 53185.734
+        },
+        {
+          "start": 1666065215267,
+          "finish": 1666065220384,
+          "tx-committed": 1819,
+          "avg-latency": 53117.453
+        },
+        {
+          "start": 1666065220384,
+          "finish": 1666065225468,
+          "tx-committed": 1819,
+          "avg-latency": 62190.293
+        },
+        {
+          "start": 1666065225468,
+          "finish": 1666065230556,
+          "tx-committed": 1819,
+          "avg-latency": 66431.77
+        },
+        {
+          "start": 1666065230556,
+          "finish": 1666065235639,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235639,
+          "finish": 1666065240725,
+          "tx-committed": 1819,
+          "avg-latency": 69979.375
+        },
+        {
+          "start": 1666065240725,
+          "finish": 1666065245817,
+          "tx-committed": 1819,
+          "avg-latency": 74530.51
+        },
+        {
+          "start": 1666065245817,
+          "finish": 1666065250922,
+          "tx-committed": 1819,
+          "avg-latency": 80355.836
+        },
+        {
+          "start": 1666065250922,
+          "finish": 1666065256021,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065256021,
+          "finish": 1666065261118,
+          "tx-committed": 1819,
+          "avg-latency": 87680.85
+        },
+        {
+          "start": 1666065261118,
+          "finish": 1666065266207,
+          "tx-committed": 1819,
+          "avg-latency": 92891.58
+        },
+        {
+          "start": 1666065266207,
+          "finish": 1666065271288,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065271288,
+          "finish": 1666065276366,
+          "tx-committed": 1819,
+          "avg-latency": 98105.2
+        },
+        {
+          "start": 1666065276366,
+          "finish": 1666065281466,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065281466,
+          "finish": 1666065286557,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065286557,
+          "finish": 1666065291669,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065291669,
+          "finish": 1666065296779,
+          "tx-committed": 1819,
+          "avg-latency": 114545.6
+        },
+        {
+          "start": 1666065296779,
+          "finish": 1666065301865,
+          "tx-committed": 1819,
+          "avg-latency": 120182.02
+        },
+        {
+          "start": 1666065301865,
+          "finish": 1666065306967,
+          "tx-committed": 1819,
+          "avg-latency": 123535.79
+        },
+        {
+          "start": 1666065306967,
+          "finish": 1666065312063,
+          "tx-committed": 1819,
+          "avg-latency": 126357.54
+        },
+        {
+          "start": 1666065312063,
+          "finish": 1666065317148,
+          "tx-committed": 1819,
+          "avg-latency": 128156.13
+        },
+        {
+          "start": 1666065317148,
+          "finish": 1666065322222,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322222,
+          "finish": 1666065327302,
+          "tx-committed": 1819,
+          "avg-latency": 130139.9
+        },
+        {
+          "start": 1666065327302,
+          "finish": 1666065332417,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065332417,
+          "finish": 1666065337514,
+          "tx-committed": 1819,
+          "avg-latency": 132836.45
+        },
+        {
+          "start": 1666065337514,
+          "finish": 1666065342621,
+          "tx-committed": 1819,
+          "avg-latency": 140135.8
+        },
+        {
+          "start": 1666065342621,
+          "finish": 1666065347714,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065347714,
+          "finish": 1666065352797,
+          "tx-committed": 1819,
+          "avg-latency": 141185.94
+        },
+        {
+          "start": 1666065352797,
+          "finish": 1666065357882,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065357882,
+          "finish": 1666065362969,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362969,
+          "finish": 1666065368066,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065368066,
+          "finish": 1666065373169,
+          "tx-committed": 1819,
+          "avg-latency": 156281.9
+        },
+        {
+          "start": 1666065373169,
+          "finish": 1666065378261,
+          "tx-committed": 1819,
+          "avg-latency": 166300.69
+        }
+      ]
+    },
+    {
+      "replica": 7,
+      "start": 1666065083161,
+      "finish": 1666065383180,
+      "sent-messages": 26700,
+      "recv-messages": 25552,
+      "total-tx": 292450,
+      "dropped-tx": 108600,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088180,
+          "tx-committed": 580,
+          "avg-latency": 1459.9879
+        },
+        {
+          "start": 1666065088180,
+          "finish": 1666065093244,
+          "tx-committed": 1422,
+          "avg-latency": 5962.4214
+        },
+        {
+          "start": 1666065093244,
+          "finish": 1666065098317,
+          "tx-committed": 1819,
+          "avg-latency": 8518.368
+        },
+        {
+          "start": 1666065098317,
+          "finish": 1666065103384,
+          "tx-committed": 1819,
+          "avg-latency": 10826.977
+        },
+        {
+          "start": 1666065103384,
+          "finish": 1666065108439,
+          "tx-committed": 1819,
+          "avg-latency": 13114.853
+        },
+        {
+          "start": 1666065108439,
+          "finish": 1666065113500,
+          "tx-committed": 1819,
+          "avg-latency": 15232.831
+        },
+        {
+          "start": 1666065113500,
+          "finish": 1666065118561,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065118561,
+          "finish": 1666065123641,
+          "tx-committed": 1819,
+          "avg-latency": 17674.016
+        },
+        {
+          "start": 1666065123641,
+          "finish": 1666065128716,
+          "tx-committed": 1819,
+          "avg-latency": 19957.99
+        },
+        {
+          "start": 1666065128716,
+          "finish": 1666065133796,
+          "tx-committed": 1819,
+          "avg-latency": 22973.27
+        },
+        {
+          "start": 1666065133796,
+          "finish": 1666065138893,
+          "tx-committed": 1819,
+          "avg-latency": 25060.643
+        },
+        {
+          "start": 1666065138893,
+          "finish": 1666065143967,
+          "tx-committed": 1819,
+          "avg-latency": 26618.885
+        },
+        {
+          "start": 1666065143967,
+          "finish": 1666065149038,
+          "tx-committed": 1819,
+          "avg-latency": 28997.156
+        },
+        {
+          "start": 1666065149038,
+          "finish": 1666065154104,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154104,
+          "finish": 1666065159200,
+          "tx-committed": 1819,
+          "avg-latency": 31345.996
+        },
+        {
+          "start": 1666065159200,
+          "finish": 1666065164299,
+          "tx-committed": 1819,
+          "avg-latency": 33962.727
+        },
+        {
+          "start": 1666065164299,
+          "finish": 1666065169389,
+          "tx-committed": 1819,
+          "avg-latency": 36105.918
+        },
+        {
+          "start": 1666065169389,
+          "finish": 1666065174486,
+          "tx-committed": 1819,
+          "avg-latency": 38141.105
+        },
+        {
+          "start": 1666065174486,
+          "finish": 1666065179573,
+          "tx-committed": 1819,
+          "avg-latency": 39709.285
+        },
+        {
+          "start": 1666065179573,
+          "finish": 1666065184710,
+          "tx-committed": 1819,
+          "avg-latency": 41739.055
+        },
+        {
+          "start": 1666065184710,
+          "finish": 1666065189793,
+          "tx-committed": 1819,
+          "avg-latency": 42357.9
+        },
+        {
+          "start": 1666065189793,
+          "finish": 1666065194877,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194877,
+          "finish": 1666065199968,
+          "tx-committed": 1819,
+          "avg-latency": 43894.008
+        },
+        {
+          "start": 1666065199968,
+          "finish": 1666065205070,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065205070,
+          "finish": 1666065210171,
+          "tx-committed": 1819,
+          "avg-latency": 47293.39
+        },
+        {
+          "start": 1666065210171,
+          "finish": 1666065215269,
+          "tx-committed": 1819,
+          "avg-latency": 47375.17
+        },
+        {
+          "start": 1666065215269,
+          "finish": 1666065220386,
+          "tx-committed": 1819,
+          "avg-latency": 51482.508
+        },
+        {
+          "start": 1666065220386,
+          "finish": 1666065225470,
+          "tx-committed": 1819,
+          "avg-latency": 49905.29
+        },
+        {
+          "start": 1666065225470,
+          "finish": 1666065230558,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065230558,
+          "finish": 1666065235640,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235640,
+          "finish": 1666065240727,
+          "tx-committed": 1819,
+          "avg-latency": 61970.383
+        },
+        {
+          "start": 1666065240727,
+          "finish": 1666065245820,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065245820,
+          "finish": 1666065250922,
+          "tx-committed": 1819,
+          "avg-latency": 72916.17
+        },
+        {
+          "start": 1666065250922,
+          "finish": 1666065256023,
+          "tx-committed": 1819,
+          "avg-latency": 79171.9
+        },
+        {
+          "start": 1666065256023,
+          "finish": 1666065261120,
+          "tx-committed": 1819,
+          "avg-latency": 83620.54
+        },
+        {
+          "start": 1666065261120,
+          "finish": 1666065266209,
+          "tx-committed": 1819,
+          "avg-latency": 86677.73
+        },
+        {
+          "start": 1666065266209,
+          "finish": 1666065271290,
+          "tx-committed": 1819,
+          "avg-latency": 90739.375
+        },
+        {
+          "start": 1666065271290,
+          "finish": 1666065276368,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276368,
+          "finish": 1666065281468,
+          "tx-committed": 1819,
+          "avg-latency": 94209.305
+        },
+        {
+          "start": 1666065281468,
+          "finish": 1666065286559,
+          "tx-committed": 1819,
+          "avg-latency": 98126.32
+        },
+        {
+          "start": 1666065286559,
+          "finish": 1666065291671,
+          "tx-committed": 1819,
+          "avg-latency": 101284.22
+        },
+        {
+          "start": 1666065291671,
+          "finish": 1666065296779,
+          "tx-committed": 1819,
+          "avg-latency": 105320.01
+        },
+        {
+          "start": 1666065296779,
+          "finish": 1666065301867,
+          "tx-committed": 1819,
+          "avg-latency": 107577.83
+        },
+        {
+          "start": 1666065301867,
+          "finish": 1666065306969,
+          "tx-committed": 1819,
+          "avg-latency": 110053.17
+        },
+        {
+          "start": 1666065306969,
+          "finish": 1666065312064,
+          "tx-committed": 1819,
+          "avg-latency": 114756.695
+        },
+        {
+          "start": 1666065312064,
+          "finish": 1666065317149,
+          "tx-committed": 1819,
+          "avg-latency": 117695.54
+        },
+        {
+          "start": 1666065317149,
+          "finish": 1666065322224,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322224,
+          "finish": 1666065327304,
+          "tx-committed": 1819,
+          "avg-latency": 116833.93
+        },
+        {
+          "start": 1666065327304,
+          "finish": 1666065332418,
+          "tx-committed": 1819,
+          "avg-latency": 122585.77
+        },
+        {
+          "start": 1666065332418,
+          "finish": 1666065337515,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065337515,
+          "finish": 1666065342623,
+          "tx-committed": 1819,
+          "avg-latency": 123750.96
+        },
+        {
+          "start": 1666065342623,
+          "finish": 1666065347715,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065347715,
+          "finish": 1666065352798,
+          "tx-committed": 1819,
+          "avg-latency": 133368.89
+        },
+        {
+          "start": 1666065352798,
+          "finish": 1666065357883,
+          "tx-committed": 1819,
+          "avg-latency": 141544.72
+        },
+        {
+          "start": 1666065357883,
+          "finish": 1666065362971,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362971,
+          "finish": 1666065368068,
+          "tx-committed": 1819,
+          "avg-latency": 144027.94
+        },
+        {
+          "start": 1666065368068,
+          "finish": 1666065373170,
+          "tx-committed": 1819,
+          "avg-latency": 148747.16
+        },
+        {
+          "start": 1666065373170,
+          "finish": 1666065378263,
+          "tx-committed": 1819,
+          "avg-latency": 146158.11
+        }
+      ]
+    },
+    {
+      "replica": 8,
+      "start": 1666065083156,
+      "finish": 1666065383175,
+      "sent-messages": 23030,
+      "recv-messages": 25691,
+      "total-tx": 291990,
+      "dropped-tx": 142660,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088175,
+          "tx-committed": 590,
+          "avg-latency": 1507.0492
+        },
+        {
+          "start": 1666065088175,
+          "finish": 1666065093239,
+          "tx-committed": 1450,
+          "avg-latency": 6089.776
+        },
+        {
+          "start": 1666065093239,
+          "finish": 1666065098312,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065098312,
+          "finish": 1666065103379,
+          "tx-committed": 1819,
+          "avg-latency": 12213.842
+        },
+        {
+          "start": 1666065103379,
+          "finish": 1666065108435,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065108435,
+          "finish": 1666065113496,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113496,
+          "finish": 1666065118556,
+          "tx-committed": 1819,
+          "avg-latency": 16691.328
+        },
+        {
+          "start": 1666065118556,
+          "finish": 1666065123637,
+          "tx-committed": 1819,
+          "avg-latency": 18966.037
+        },
+        {
+          "start": 1666065123637,
+          "finish": 1666065128712,
+          "tx-committed": 1819,
+          "avg-latency": 21688.842
+        },
+        {
+          "start": 1666065128712,
+          "finish": 1666065133792,
+          "tx-committed": 1819,
+          "avg-latency": 24278.805
+        },
+        {
+          "start": 1666065133792,
+          "finish": 1666065138889,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065138889,
+          "finish": 1666065143962,
+          "tx-committed": 1819,
+          "avg-latency": 29719.883
+        },
+        {
+          "start": 1666065143962,
+          "finish": 1666065149034,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065149034,
+          "finish": 1666065154099,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154099,
+          "finish": 1666065159195,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065159195,
+          "finish": 1666065164294,
+          "tx-committed": 1819,
+          "avg-latency": 36635.395
+        },
+        {
+          "start": 1666065164294,
+          "finish": 1666065169384,
+          "tx-committed": 1819,
+          "avg-latency": 37775.6
+        },
+        {
+          "start": 1666065169384,
+          "finish": 1666065174481,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065174481,
+          "finish": 1666065179568,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065179568,
+          "finish": 1666065184705,
+          "tx-committed": 1819,
+          "avg-latency": 46287.664
+        },
+        {
+          "start": 1666065184705,
+          "finish": 1666065189788,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065189788,
+          "finish": 1666065194872,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194872,
+          "finish": 1666065199963,
+          "tx-committed": 1819,
+          "avg-latency": 50198.22
+        },
+        {
+          "start": 1666065199963,
+          "finish": 1666065205066,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065205066,
+          "finish": 1666065210166,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065210166,
+          "finish": 1666065215264,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065215264,
+          "finish": 1666065220381,
+          "tx-committed": 1819,
+          "avg-latency": 65058.02
+        },
+        {
+          "start": 1666065220381,
+          "finish": 1666065225465,
+          "tx-committed": 1819,
+          "avg-latency": 71082.01
+        },
+        {
+          "start": 1666065225465,
+          "finish": 1666065230554,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065230554,
+          "finish": 1666065235635,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235635,
+          "finish": 1666065240722,
+          "tx-committed": 1819,
+          "avg-latency": 78800.33
+        },
+        {
+          "start": 1666065240722,
+          "finish": 1666065245814,
+          "tx-committed": 1819,
+          "avg-latency": 85956.24
+        },
+        {
+          "start": 1666065245814,
+          "finish": 1666065250917,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065250917,
+          "finish": 1666065256018,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065256018,
+          "finish": 1666065261115,
+          "tx-committed": 1819,
+          "avg-latency": 100292.93
+        },
+        {
+          "start": 1666065261115,
+          "finish": 1666065266205,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065266205,
+          "finish": 1666065271285,
+          "tx-committed": 1819,
+          "avg-latency": 107883.74
+        },
+        {
+          "start": 1666065271285,
+          "finish": 1666065276363,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276363,
+          "finish": 1666065281464,
+          "tx-committed": 1819,
+          "avg-latency": 113907.164
+        },
+        {
+          "start": 1666065281464,
+          "finish": 1666065286554,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065286554,
+          "finish": 1666065291666,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065291666,
+          "finish": 1666065296774,
+          "tx-committed": 1819,
+          "avg-latency": 126604.734
+        },
+        {
+          "start": 1666065296774,
+          "finish": 1666065301862,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065301862,
+          "finish": 1666065306964,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065306964,
+          "finish": 1666065312060,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065312060,
+          "finish": 1666065317145,
+          "tx-committed": 1819,
+          "avg-latency": 143686.61
+        },
+        {
+          "start": 1666065317145,
+          "finish": 1666065322219,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322219,
+          "finish": 1666065327299,
+          "tx-committed": 1819,
+          "avg-latency": 151187.06
+        },
+        {
+          "start": 1666065327299,
+          "finish": 1666065332414,
+          "tx-committed": 1819,
+          "avg-latency": 152863.34
+        },
+        {
+          "start": 1666065332414,
+          "finish": 1666065337511,
+          "tx-committed": 1819,
+          "avg-latency": 154127.17
+        },
+        {
+          "start": 1666065337511,
+          "finish": 1666065342618,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065342618,
+          "finish": 1666065347711,
+          "tx-committed": 1819,
+          "avg-latency": 157698.95
+        },
+        {
+          "start": 1666065347711,
+          "finish": 1666065352793,
+          "tx-committed": 1819,
+          "avg-latency": 162962.7
+        },
+        {
+          "start": 1666065352793,
+          "finish": 1666065357879,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065357879,
+          "finish": 1666065362966,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362966,
+          "finish": 1666065368063,
+          "tx-committed": 1819,
+          "avg-latency": 167672.56
+        },
+        {
+          "start": 1666065368063,
+          "finish": 1666065373166,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065373166,
+          "finish": 1666065378259,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        }
+      ]
+    },
+    {
+      "replica": 9,
+      "start": 1666065083160,
+      "finish": 1666065383180,
+      "sent-messages": 26640,
+      "recv-messages": 25523,
+      "total-tx": 289280,
+      "dropped-tx": 105480,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088179,
+          "tx-committed": 130,
+          "avg-latency": 565.7846
+        },
+        {
+          "start": 1666065088179,
+          "finish": 1666065093242,
+          "tx-committed": 1819,
+          "avg-latency": 6226.1133
+        },
+        {
+          "start": 1666065093242,
+          "finish": 1666065098316,
+          "tx-committed": 1819,
+          "avg-latency": 8521.354
+        },
+        {
+          "start": 1666065098316,
+          "finish": 1666065103383,
+          "tx-committed": 1819,
+          "avg-latency": 10842.419
+        },
+        {
+          "start": 1666065103383,
+          "finish": 1666065108438,
+          "tx-committed": 1819,
+          "avg-latency": 13281.982
+        },
+        {
+          "start": 1666065108438,
+          "finish": 1666065113499,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113499,
+          "finish": 1666065118560,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065118560,
+          "finish": 1666065123640,
+          "tx-committed": 1819,
+          "avg-latency": 18055.697
+        },
+        {
+          "start": 1666065123640,
+          "finish": 1666065128715,
+          "tx-committed": 1819,
+          "avg-latency": 20355.748
+        },
+        {
+          "start": 1666065128715,
+          "finish": 1666065133796,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065133796,
+          "finish": 1666065138892,
+          "tx-committed": 1819,
+          "avg-latency": 25343.912
+        },
+        {
+          "start": 1666065138892,
+          "finish": 1666065143967,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065143967,
+          "finish": 1666065149037,
+          "tx-committed": 1819,
+          "avg-latency": 30706.607
+        },
+        {
+          "start": 1666065149037,
+          "finish": 1666065154104,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154104,
+          "finish": 1666065159199,
+          "tx-committed": 1819,
+          "avg-latency": 33128.254
+        },
+        {
+          "start": 1666065159199,
+          "finish": 1666065164298,
+          "tx-committed": 1819,
+          "avg-latency": 34475.54
+        },
+        {
+          "start": 1666065164298,
+          "finish": 1666065169389,
+          "tx-committed": 1819,
+          "avg-latency": 37675.668
+        },
+        {
+          "start": 1666065169389,
+          "finish": 1666065174485,
+          "tx-committed": 1819,
+          "avg-latency": 39653.41
+        },
+        {
+          "start": 1666065174485,
+          "finish": 1666065179572,
+          "tx-committed": 1819,
+          "avg-latency": 41050.47
+        },
+        {
+          "start": 1666065179572,
+          "finish": 1666065184709,
+          "tx-committed": 1819,
+          "avg-latency": 42727.84
+        },
+        {
+          "start": 1666065184709,
+          "finish": 1666065189793,
+          "tx-committed": 1819,
+          "avg-latency": 45690.09
+        },
+        {
+          "start": 1666065189793,
+          "finish": 1666065194876,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194876,
+          "finish": 1666065199967,
+          "tx-committed": 1819,
+          "avg-latency": 45665.68
+        },
+        {
+          "start": 1666065199967,
+          "finish": 1666065205070,
+          "tx-committed": 1819,
+          "avg-latency": 44832.863
+        },
+        {
+          "start": 1666065205070,
+          "finish": 1666065210170,
+          "tx-committed": 1819,
+          "avg-latency": 50399.152
+        },
+        {
+          "start": 1666065210170,
+          "finish": 1666065215268,
+          "tx-committed": 1819,
+          "avg-latency": 49557.63
+        },
+        {
+          "start": 1666065215268,
+          "finish": 1666065220385,
+          "tx-committed": 1819,
+          "avg-latency": 51635.39
+        },
+        {
+          "start": 1666065220385,
+          "finish": 1666065225470,
+          "tx-committed": 1819,
+          "avg-latency": 53746.12
+        },
+        {
+          "start": 1666065225470,
+          "finish": 1666065230558,
+          "tx-committed": 1819,
+          "avg-latency": 62548.61
+        },
+        {
+          "start": 1666065230558,
+          "finish": 1666065235640,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235640,
+          "finish": 1666065240726,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065240726,
+          "finish": 1666065245819,
+          "tx-committed": 1819,
+          "avg-latency": 69635.74
+        },
+        {
+          "start": 1666065245819,
+          "finish": 1666065250922,
+          "tx-committed": 1819,
+          "avg-latency": 77044.945
+        },
+        {
+          "start": 1666065250922,
+          "finish": 1666065256023,
+          "tx-committed": 1819,
+          "avg-latency": 80330.0
+        },
+        {
+          "start": 1666065256023,
+          "finish": 1666065261120,
+          "tx-committed": 1819,
+          "avg-latency": 85262.516
+        },
+        {
+          "start": 1666065261120,
+          "finish": 1666065266209,
+          "tx-committed": 1819,
+          "avg-latency": 88084.48
+        },
+        {
+          "start": 1666065266209,
+          "finish": 1666065271290,
+          "tx-committed": 1819,
+          "avg-latency": 92607.1
+        },
+        {
+          "start": 1666065271290,
+          "finish": 1666065276367,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276367,
+          "finish": 1666065281468,
+          "tx-committed": 1819,
+          "avg-latency": 94874.07
+        },
+        {
+          "start": 1666065281468,
+          "finish": 1666065286559,
+          "tx-committed": 1819,
+          "avg-latency": 99630.86
+        },
+        {
+          "start": 1666065286559,
+          "finish": 1666065291670,
+          "tx-committed": 1819,
+          "avg-latency": 102259.24
+        },
+        {
+          "start": 1666065291670,
+          "finish": 1666065296779,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065296779,
+          "finish": 1666065301868,
+          "tx-committed": 1819,
+          "avg-latency": 110227.01
+        },
+        {
+          "start": 1666065301868,
+          "finish": 1666065306969,
+          "tx-committed": 1819,
+          "avg-latency": 114939.19
+        },
+        {
+          "start": 1666065306969,
+          "finish": 1666065312064,
+          "tx-committed": 1819,
+          "avg-latency": 119364.75
+        },
+        {
+          "start": 1666065312064,
+          "finish": 1666065317150,
+          "tx-committed": 1819,
+          "avg-latency": 120873.49
+        },
+        {
+          "start": 1666065317150,
+          "finish": 1666065322224,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322224,
+          "finish": 1666065327305,
+          "tx-committed": 1819,
+          "avg-latency": 123301.57
+        },
+        {
+          "start": 1666065327305,
+          "finish": 1666065332419,
+          "tx-committed": 1819,
+          "avg-latency": 129993.94
+        },
+        {
+          "start": 1666065332419,
+          "finish": 1666065337516,
+          "tx-committed": 1819,
+          "avg-latency": 128494.734
+        },
+        {
+          "start": 1666065337516,
+          "finish": 1666065342624,
+          "tx-committed": 1819,
+          "avg-latency": 129346.17
+        },
+        {
+          "start": 1666065342624,
+          "finish": 1666065347716,
+          "tx-committed": 1819,
+          "avg-latency": 131913.05
+        },
+        {
+          "start": 1666065347716,
+          "finish": 1666065352798,
+          "tx-committed": 1819,
+          "avg-latency": 134515.61
+        },
+        {
+          "start": 1666065352798,
+          "finish": 1666065357889,
+          "tx-committed": 1819,
+          "avg-latency": 135390.89
+        },
+        {
+          "start": 1666065357889,
+          "finish": 1666065362971,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362971,
+          "finish": 1666065368068,
+          "tx-committed": 1819,
+          "avg-latency": 137458.05
+        },
+        {
+          "start": 1666065368068,
+          "finish": 1666065373171,
+          "tx-committed": 1819,
+          "avg-latency": 142769.94
+        },
+        {
+          "start": 1666065373171,
+          "finish": 1666065378264,
+          "tx-committed": 1819,
+          "avg-latency": 143587.58
+        }
+      ]
+    },
+    {
+      "replica": 10,
+      "start": 1666065083156,
+      "finish": 1666065383175,
+      "sent-messages": 25730,
+      "recv-messages": 25551,
+      "total-tx": 291540,
+      "dropped-tx": 127660,
+      "executions": [
+        {
+          "start": 0,
+          "finish": 1666065088175,
+          "tx-committed": 600,
+          "avg-latency": 1479.5867
+        },
+        {
+          "start": 1666065088175,
+          "finish": 1666065093238,
+          "tx-committed": 1440,
+          "avg-latency": 5976.668
+        },
+        {
+          "start": 1666065093238,
+          "finish": 1666065098312,
+          "tx-committed": 1819,
+          "avg-latency": 8644.893
+        },
+        {
+          "start": 1666065098312,
+          "finish": 1666065103379,
+          "tx-committed": 1819,
+          "avg-latency": 10743.471
+        },
+        {
+          "start": 1666065103379,
+          "finish": 1666065108434,
+          "tx-committed": 1819,
+          "avg-latency": 13382.737
+        },
+        {
+          "start": 1666065108434,
+          "finish": 1666065113495,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065113495,
+          "finish": 1666065118555,
+          "tx-committed": 1819,
+          "avg-latency": 15092.697
+        },
+        {
+          "start": 1666065118555,
+          "finish": 1666065123636,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065123636,
+          "finish": 1666065128716,
+          "tx-committed": 1819,
+          "avg-latency": 20557.453
+        },
+        {
+          "start": 1666065128716,
+          "finish": 1666065133791,
+          "tx-committed": 1819,
+          "avg-latency": 23008.7
+        },
+        {
+          "start": 1666065133791,
+          "finish": 1666065138888,
+          "tx-committed": 1819,
+          "avg-latency": 25070.57
+        },
+        {
+          "start": 1666065138888,
+          "finish": 1666065143962,
+          "tx-committed": 1819,
+          "avg-latency": 27561.223
+        },
+        {
+          "start": 1666065143962,
+          "finish": 1666065149033,
+          "tx-committed": 1819,
+          "avg-latency": 29609.672
+        },
+        {
+          "start": 1666065149033,
+          "finish": 1666065154100,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065154100,
+          "finish": 1666065159194,
+          "tx-committed": 1819,
+          "avg-latency": 31427.57
+        },
+        {
+          "start": 1666065159194,
+          "finish": 1666065164294,
+          "tx-committed": 1819,
+          "avg-latency": 34149.062
+        },
+        {
+          "start": 1666065164294,
+          "finish": 1666065169384,
+          "tx-committed": 1819,
+          "avg-latency": 37261.336
+        },
+        {
+          "start": 1666065169384,
+          "finish": 1666065174482,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065174482,
+          "finish": 1666065179567,
+          "tx-committed": 1819,
+          "avg-latency": 40520.895
+        },
+        {
+          "start": 1666065179567,
+          "finish": 1666065184704,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065184704,
+          "finish": 1666065189788,
+          "tx-committed": 1819,
+          "avg-latency": 43596.55
+        },
+        {
+          "start": 1666065189788,
+          "finish": 1666065194872,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065194872,
+          "finish": 1666065199962,
+          "tx-committed": 1819,
+          "avg-latency": 45882.24
+        },
+        {
+          "start": 1666065199962,
+          "finish": 1666065205065,
+          "tx-committed": 1819,
+          "avg-latency": 47335.016
+        },
+        {
+          "start": 1666065205065,
+          "finish": 1666065210166,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065210166,
+          "finish": 1666065215306,
+          "tx-committed": 1819,
+          "avg-latency": 50690.312
+        },
+        {
+          "start": 1666065215306,
+          "finish": 1666065220380,
+          "tx-committed": 1819,
+          "avg-latency": 51944.465
+        },
+        {
+          "start": 1666065220380,
+          "finish": 1666065225465,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065225465,
+          "finish": 1666065230553,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065230553,
+          "finish": 1666065235635,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065235635,
+          "finish": 1666065240722,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065240722,
+          "finish": 1666065245814,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065245814,
+          "finish": 1666065250917,
+          "tx-committed": 1819,
+          "avg-latency": 79761.7
+        },
+        {
+          "start": 1666065250917,
+          "finish": 1666065256018,
+          "tx-committed": 1819,
+          "avg-latency": 86632.77
+        },
+        {
+          "start": 1666065256018,
+          "finish": 1666065261115,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065261115,
+          "finish": 1666065266203,
+          "tx-committed": 1819,
+          "avg-latency": 95532.07
+        },
+        {
+          "start": 1666065266203,
+          "finish": 1666065271285,
+          "tx-committed": 1819,
+          "avg-latency": 102333.7
+        },
+        {
+          "start": 1666065271285,
+          "finish": 1666065276363,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065276363,
+          "finish": 1666065281463,
+          "tx-committed": 1819,
+          "avg-latency": 105713.38
+        },
+        {
+          "start": 1666065281463,
+          "finish": 1666065286554,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065286554,
+          "finish": 1666065291665,
+          "tx-committed": 1819,
+          "avg-latency": 108980.195
+        },
+        {
+          "start": 1666065291665,
+          "finish": 1666065296774,
+          "tx-committed": 1819,
+          "avg-latency": 115994.4
+        },
+        {
+          "start": 1666065296774,
+          "finish": 1666065301862,
+          "tx-committed": 1819,
+          "avg-latency": 118782.85
+        },
+        {
+          "start": 1666065301862,
+          "finish": 1666065306963,
+          "tx-committed": 1819,
+          "avg-latency": 123317.67
+        },
+        {
+          "start": 1666065306963,
+          "finish": 1666065312060,
+          "tx-committed": 1819,
+          "avg-latency": 124978.5
+        },
+        {
+          "start": 1666065312060,
+          "finish": 1666065317144,
+          "tx-committed": 1819,
+          "avg-latency": 127748.74
+        },
+        {
+          "start": 1666065317144,
+          "finish": 1666065322219,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065322219,
+          "finish": 1666065327299,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065327299,
+          "finish": 1666065332413,
+          "tx-committed": 1819,
+          "avg-latency": 130966.164
+        },
+        {
+          "start": 1666065332413,
+          "finish": 1666065337510,
+          "tx-committed": 1819,
+          "avg-latency": 136925.58
+        },
+        {
+          "start": 1666065337510,
+          "finish": 1666065342618,
+          "tx-committed": 1819,
+          "avg-latency": 138382.38
+        },
+        {
+          "start": 1666065342618,
+          "finish": 1666065347712,
+          "tx-committed": 1819,
+          "avg-latency": 141740.33
+        },
+        {
+          "start": 1666065347712,
+          "finish": 1666065352793,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065352793,
+          "finish": 1666065357878,
+          "tx-committed": 1819,
+          "avg-latency": 145276.44
+        },
+        {
+          "start": 1666065357878,
+          "finish": 1666065362966,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065362966,
+          "finish": 1666065368062,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065368062,
+          "finish": 1666065373165,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        },
+        {
+          "start": 1666065373165,
+          "finish": 1666065378258,
+          "tx-committed": 0,
+          "avg-latency": 0.0
+        }
+      ]
+    }
+  ]
+}
