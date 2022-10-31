@@ -1,39 +1,123 @@
-pcs 0 172.16.100.4
+pcs 0 172.16.71.3
 sleep 1000
-replica 0 0
+pcs 1 172.16.100.7
 sleep 1000
-replica 0 1
+pcs 2 172.16.20.14
 sleep 1000
-replica 0 2
+pcs 3 172.16.177.3
 sleep 1000
-replica 0 3
+pcs 4 172.16.132.9
 sleep 1000
-replica 0 4
+replica 0
+sleep 5000
+replica 1
+sleep 5000
+replica 2
+sleep 5000
+replica 3
+sleep 5000
+replica 4
+sleep 5000
+replica 0
+sleep 5000
+replica 1
+sleep 5000
+replica 2
+sleep 5000
+replica 3
+sleep 5000
+replica 4
+sleep 5000
+topology 0 1 2 3 4 5 6 7 8 9
 sleep 1000
-topology 0 1 2 3 4
-sleep 1000
-protocol hb 10 latency free 1
+protocol alea 1000 throughput free 3000
 sleep 1000
 start
-sleep 15000
+sleep 300000
 stop
 sleep 1000
-protocol hb 10 latency free 5
+protocol alea 1000 throughput free 250
 sleep 1000
 start
-sleep 15000
+sleep 300000
 stop
 sleep 1000
-protocol hb 20 latency free 1
+protocol alea 1000 throughput free 50000
 sleep 1000
 start
-sleep 15000
+sleep 300000
 stop
 sleep 1000
-protocol hb 20 latency free 5
+protocol alea 1000 throughput free 20000
 sleep 1000
 start
-sleep 15000
+sleep 300000
+stop
+sleep 1000
+protocol alea 1000 throughput free 5000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol hb 1000 throughput free 3000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol hb 1000 throughput free 250
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol hb 1000 throughput free 50000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol hb 1000 throughput free 20000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol hb 1000 throughput free 5000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 3000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 250
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 50000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 20000
+sleep 1000
+start
+sleep 300000
+stop
+sleep 1000
+protocol dumbo 1000 throughput free 5000
+sleep 1000
+start
+sleep 300000
 stop
 sleep 1000
 sleep 1000
